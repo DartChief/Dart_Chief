@@ -1,1 +1,1 @@
-create database if not exists itis_maven_schema_dev;
+create database if not exists itis_maven_schema_test;

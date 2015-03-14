@@ -1,8 +1,5 @@
 package com.kzn.itis;
 
-import com.kzn.itis.db.model.User;
-import com.kzn.itis.db.repositories.UserRepository;
-import com.kzn.itis.db.repositories.impl.UserRepositoryImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -43,22 +40,6 @@ public class ExampleMain {
     public static void main(String... args) throws SQLException {
         logger.info("Welcome to Example Application");
 
-        UserRepository userRepository = new UserRepositoryImpl();
-
-        User user = new User();
-        user.setAge(25);
-        user.setFirstname("James");
-        user.setLastname("Bond");
-
-        userRepository.addUser(user);
-
-        logger.info("User has been added!");
-
-        long count = userRepository.getCount();
-
-        logger.info("New count: " + String.valueOf(count));
-
-
         //String url = "jdbc:derby:./db_dev; create = true";
         InputStream fis = ExampleMain.class.getResourceAsStream("/derby.properties");
         Properties prop = new Properties();
@@ -72,7 +53,7 @@ public class ExampleMain {
             Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
             con = DriverManager.getConnection(prop.getProperty("connectionUrl"));
             Statement stmt = con.createStatement();
-			/*String sql1 = "CREATE TABLE ORDERS (" + "Id INTEGER not NULL,"
+			String sql1 = "CREATE TABLE ORDERS (" + "Id INTEGER not NULL,"
 					+ " CustomerId INTEGER not NULL,"
 					+ "SalersPersonalId INTEGER not NULL,"
 					+ "TotalAmount INTEGER not NULL," + " PRIMARY KEY (Id))";
@@ -90,23 +71,21 @@ public class ExampleMain {
 			insertStudents(4, "Fam4", "Name4", stmt);
 			insertStudents(5, "Fam5", "Name5", stmt);
 			insertStudents(6, "Fam6", "Name6", stmt);
-			insertStudents(7, "Fam7", "Name7", stmt);*/
+			insertStudents(7, "Fam7", "Name7", stmt);
             String sql = "SELECT s.LastName || ' ' || s.FirstName Name, o.TotalAmount FROM STUDENTS s LEFT JOIN Orders o ON o.Customerid = s.id";
             ResultSet res = stmt.executeQuery(sql);
             while (res.next()) {
                 System.out.println(res.getString(1) + " " + res.getString(2));
             }
-			/*String sql3 = "DROP TABLE STUDENTS";
+			String sql3 = "DROP TABLE STUDENTS";
 			stmt.executeUpdate(sql3);
 			String sql4 = "DROP TABLE ORDERS";
-			stmt.executeUpdate(sql4);*/
+			stmt.executeUpdate(sql4);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            try {
-                con.close();
-            } catch (SQLException e) {
-            }
+            assert con != null;
+            con.close();
         }
 
     }

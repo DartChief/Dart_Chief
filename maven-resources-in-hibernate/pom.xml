@@ -163,6 +163,7 @@
         <profile>
             <id>test</id>
             <properties>
+                <db.url>jdbc:derby:./db_test; create = true</db.url>
                 <db.schema.name>itis_maven_schema_test</db.schema.name>
                 <hibernate.db.url>jdbc:mysql://localhost:3306/itis_maven_schema_test?autoReconnect=true</hibernate.db.url>
                 <hibernate.db.user>dbuser</hibernate.db.user>
