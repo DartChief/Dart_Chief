@@ -1,139 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67bb4d72-07f9-4855-9f8c-868d8bbda429" name="Default" comment="All tasks done, built was successful.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c10.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c101.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c111.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c121.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c130.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c141.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c150.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c161.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c171.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c180.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c191.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c1a1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c1b1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c1c0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c1d1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c1e0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c1f1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c20.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c200.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c211.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c221.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c230.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c241.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c251.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c260.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c271.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c281.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c290.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c2a1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c2b1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c2c1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c2d0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c2e1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c2f0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c300.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c31.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c311.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c321.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c331.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c340.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c351.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c361.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c371.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c380.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c391.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c3a1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c3b1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c3c0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c3d1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c3e1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c3f1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c400.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c41.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c411.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c421.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c430.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c441.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c451.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c461.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c470.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c481.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c51.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c60.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c71.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c81.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/c90.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/ca1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/cb1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/cc0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/cd1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/ce1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/cf0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_dev/seg0/d490.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/d490.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_dev/seg0/d4a1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/d4a1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_dev/seg0/d4b0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/d4b0.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_dev/seg0/d4c1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/d4c1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/db.lck" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/log/log.ctrl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/log/log1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/log/logmirror.ctrl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/README_DO_NOT_TOUCH_FILES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/log/README_DO_NOT_TOUCH_FILES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/seg0/README_DO_NOT_TOUCH_FILES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exec_test.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_test/service.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/student_readme.txt" />
-      <change type="DELETED" beforePath="D:\GitRepo\maven-resources-in-hibernate\exec_prod.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kzn/itis/ExampleMain.class" afterPath="$PROJECT_DIR$/target/classes/com/kzn/itis/ExampleMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c10.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c10.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c101.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c101.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c111.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c111.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c121.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c121.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c130.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c130.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c141.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c141.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c180.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c180.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c1a1.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c1a1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c1b1.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c1b1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c20.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c20.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c230.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c230.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c241.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c241.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c31.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c31.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c380.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c380.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c391.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c391.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c3a1.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c3a1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c3b1.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c3b1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c41.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c41.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c51.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c51.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c60.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c60.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c71.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c71.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c81.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c81.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c90.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c90.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/ca1.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/ca1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/cb1.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/cb1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/cf0.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/cf0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/db.lck" afterPath="$PROJECT_DIR$/db_dev/db.lck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/log/log.ctrl" afterPath="$PROJECT_DIR$/db_dev/log/log.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/log/log1.dat" afterPath="$PROJECT_DIR$/db_dev/log/log1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/db_dev/log/logmirror.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kzn/itis/ExampleMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/kzn/itis/ExampleMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/derby.properties" afterPath="$PROJECT_DIR$/target/classes/derby.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/init-create.sql" afterPath="$PROJECT_DIR$/target/classes/init-create.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/service.properties" afterPath="$PROJECT_DIR$/db_dev/service.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="67bb4d72-07f9-4855-9f8c-868d8bbda429" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student_readme.txt" afterPath="$PROJECT_DIR$/student_readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="resource-filtering.iws" />
@@ -229,20 +98,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="student_readme.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="student_readme.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/student_readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.04385965" vertical-offset="0" max-vertical-offset="570">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="service.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_dev/service.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7017544" vertical-offset="0" max-vertical-offset="725">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
               <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
@@ -267,9 +136,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/derby.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/exec_test.bat" />
-        <option value="$PROJECT_DIR$/student_readme.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/kzn/itis/ExampleMain.java" />
         <option value="$PROJECT_DIR$/db_dev/service.properties" />
+        <option value="$PROJECT_DIR$/student_readme.txt" />
       </list>
     </option>
   </component>
@@ -788,12 +657,19 @@
       <workItem from="1426229868985" duration="1207000" />
       <workItem from="1426231103071" duration="2948000" />
       <workItem from="1426234354416" duration="1979000" />
-      <workItem from="1426344928666" duration="2419000" />
+      <workItem from="1426344928666" duration="2571000" />
     </task>
+    <task id="LOCAL-00001" summary="All tasks done, built was successful.">
+      <created>1426347357562</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1426347357562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10625000" />
+    <option name="totallyTimeSpent" value="10777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1115,14 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student_readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exec_test.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04385965" vertical-offset="0" max-vertical-offset="570">
@@ -1150,8 +1018,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db_dev/service.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7017544" vertical-offset="0" max-vertical-offset="725">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04385965" vertical-offset="0" max-vertical-offset="570">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>
