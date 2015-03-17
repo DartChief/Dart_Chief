@@ -180,7 +180,17 @@
     </build>
 
     <profiles>
-
+        <!--<profile>
+            <id>dev</id>
+            <properties>
+                <db.url>jdbc:derby:./db;create=true</db.url>
+                <db.schema.name>itis_maven_schema_dev</db.schema.name>
+                <db.url>jdbc:mysql://localhost:3306/itis_maven_schema_dev?autoReconnect=true</db.url>
+                <db.user>dbuser</db.user>
+                <db.password>password</db.password>
+                <hbm2ddl.auto.init-param>update</hbm2ddl.auto.init-param>
+            </properties>
+        </profile>-->
     </profiles>
 
     <properties>
