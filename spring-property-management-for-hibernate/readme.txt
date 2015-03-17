@@ -1,3 +1,6 @@
+This repo has done Task 1 that you can see if you will see last Task 1 commit(do not see Task 2 in this project).
+
+
 1. You should have MySQL installed
 
 
