@@ -5,8 +5,6 @@ import com.kzn.itis.db.model.User;
 import com.kzn.itis.db.repositories.UserRepository;
 import com.kzn.itis.db.util.SessionUtil;
 import org.junit.Assert;
-import org.junit.BeforeClass;
-import org.junit.Test;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -18,7 +16,7 @@ import java.util.Map;
  */
 public class TestUserRepositoryWithSpring {
 
-    @BeforeClass
+    //@BeforeClass
     public static void init() {
         AbstractApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
         DatabaseConfiguration config = (DatabaseConfiguration)context.getBean("databaseConfiguration");
@@ -32,7 +30,7 @@ public class TestUserRepositoryWithSpring {
         SessionUtil.getEntityManagerFactory(configOverrides);
     }
 
-    @Test
+    //@Test
     public void testCreate() {
         UserRepository userRepository = new UserRepositoryImpl();
 
