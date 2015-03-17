@@ -11,9 +11,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.sql.SQLException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 
 /**
  *
@@ -33,7 +36,7 @@ public class SpringExampleProperties {
         this.config = config;
     }
 
-    public void run() {
+    public void run() throws SQLException {
         logger.info("Welcome to Example Application");
         logger.info("url=" + config.getDbUrl());
         logger.info("username=" + config.getDbUser());
@@ -45,8 +48,26 @@ public class SpringExampleProperties {
         configOverrides.put("hibernate.hbm2ddl.auto", config.getDbHbm2ddl());
         SessionUtil.getEntityManagerFactory(configOverrides);
 
-        // Repeat the old code from maven-resources-in-hibernate Example
-        testDB();
+        InputStream fis = SpringExampleProperties.class.getResourceAsStream("/derby.properties");
+        Properties prop = new Properties();
+        try {
+            prop.load(fis);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Connection con = null;
+        try {
+            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+            con = DriverManager.getConnection(prop.getProperty(config.getDbUrl()));
+            testDB();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            assert con != null;
+            con.close();
+        }
+
+
     }
 
     protected void testDB() {
