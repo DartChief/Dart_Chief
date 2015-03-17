@@ -9,16 +9,16 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DatabaseConfiguration {
 
-    @Value("${hibernate.db.url}")
+    @Value("${db.url}")
     private String dbUrl;
 
-    @Value("${hibernate.db.user}")
+    @Value("${db.user}")
     private String dbUser;
 
-    @Value("${hibernate.db.password}")
+    @Value("${db.password}")
     private String dbPassword;
 
-    @Value("${hibernate.hbm2ddl.auto.init-param}")
+    @Value("${hbm2ddl.auto.init-param}")
     private String dbHbm2ddl;
 
     public String getDbUrl() {

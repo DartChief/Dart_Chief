@@ -4,7 +4,6 @@ import com.kzn.itis.db.config.DatabaseConfiguration;
 import com.kzn.itis.db.model.User;
 import com.kzn.itis.db.repositories.UserRepository;
 import com.kzn.itis.db.repositories.impl.UserRepositoryImpl;
-import com.kzn.itis.db.util.SessionUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +11,6 @@ import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.sql.*;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  *
@@ -62,12 +59,12 @@ public class SpringExampleProperties {
         logger.info("url=" + config.getDbUrl());
         logger.info("username=" + config.getDbUser());
 
-        Map<String, Object> configOverrides = new HashMap<String, Object>();
-        configOverrides.put("hibernate.connection.url", config.getDbUrl());
-        configOverrides.put("hibernate.connection.username", config.getDbUser());
-        configOverrides.put("hibernate.connection.password", config.getDbPassword());
-        configOverrides.put("hibernate.hbm2ddl.auto", config.getDbHbm2ddl());
-        SessionUtil.getEntityManagerFactory(configOverrides);
+//        Map<String, Object> configOverrides = new HashMap<String, Object>();
+//        configOverrides.put("hibernate.connection.url", config.getDbUrl());
+//        configOverrides.put("hibernate.connection.username", config.getDbUser());
+//        configOverrides.put("hibernate.connection.password", config.getDbPassword());
+//        configOverrides.put("hibernate.hbm2ddl.auto", config.getDbHbm2ddl());
+//        SessionUtil.getEntityManagerFactory(configOverrides);
 
         Connection con = null;
         try {
