@@ -5,6 +5,8 @@ import com.kzn.itis.db.model.User;
 import com.kzn.itis.db.repositories.UserRepository;
 import com.kzn.itis.db.util.SessionUtil;
 import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -16,21 +18,21 @@ import java.util.Map;
  */
 public class TestUserRepositoryWithSpring {
 
-    //@BeforeClass
+    @BeforeClass
     public static void init() {
         AbstractApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
         DatabaseConfiguration config = (DatabaseConfiguration)context.getBean("databaseConfiguration");
 
         Map<String, Object> configOverrides = new HashMap<String, Object>();
-        configOverrides.put("hibernate.connection.url", config.getDbUrl());
-        configOverrides.put("hibernate.connection.username", config.getDbUser());
-        configOverrides.put("hibernate.connection.password", config.getDbPassword());
-        configOverrides.put("hibernate.hbm2ddl.auto", config.getDbHbm2ddl());
+        configOverrides.put("connection.url", config.getDbUrl());
+        configOverrides.put("connection.username", config.getDbUser());
+        configOverrides.put("connection.password", config.getDbPassword());
+        configOverrides.put("hbm2ddl.auto", config.getDbHbm2ddl());
 
         SessionUtil.getEntityManagerFactory(configOverrides);
     }
 
-    //@Test
+    @Test
     public void testCreate() {
         UserRepository userRepository = new UserRepositoryImpl();
 

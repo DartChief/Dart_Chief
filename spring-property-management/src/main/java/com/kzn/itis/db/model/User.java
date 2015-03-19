@@ -1,6 +1,5 @@
 package com.kzn.itis.db.model;
 
-
 import javax.persistence.*;
 
 @Entity

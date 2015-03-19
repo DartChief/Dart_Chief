@@ -1,7 +1,7 @@
 package com.kzn.itis.db.repositories.impl;
 
-import com.kzn.itis.db.model.User;
-import com.kzn.itis.db.repositories.UserRepository;
+import com.kzn.itis.db.model.Order;
+import com.kzn.itis.db.repositories.OrderRepository;
 import com.kzn.itis.db.util.SessionUtil;
 //import org.hibernate.Session;
 import org.slf4j.Logger;
@@ -9,9 +9,9 @@ import org.slf4j.LoggerFactory;
 
 import javax.persistence.EntityManager;
 
-public class UserRepositoryImpl implements UserRepository {
+public class OrderRepositoryImpl implements OrderRepository {
 
-    private static final Logger logger = LoggerFactory.getLogger(UserRepositoryImpl.class);
+    private static final Logger logger = LoggerFactory.getLogger(OrderRepositoryImpl.class);
 
     /**
      * Trying with EntityManager
@@ -19,8 +19,9 @@ public class UserRepositoryImpl implements UserRepository {
      * @param event
      * @return
      */
+
     @Override
-    public User addUser(User event) {
+    public Order addOrder(Order event) {
         EntityManager em = SessionUtil.getSession();
 
         try {
@@ -42,19 +43,12 @@ public class UserRepositoryImpl implements UserRepository {
         return event;
     }
 
-    /**
-     * There are several ways to get count.
-     *
-     * Here we implement it with the Hibernate Session - by using unwrap from JPA 2.0
-     *
-     * @return
-     */
     @Override
     public long getCount() {
         EntityManager em = SessionUtil.getSession();
         Session session = em.unwrap(Session.class);
 
         //You can find the size of a collection without initializing it
-        return (Long) session.createQuery("select count(*) from User").iterate().next();
+        return (Long) session.createQuery("select count(*) from Order").iterate().next();
     }
 }

@@ -1,7 +1,8 @@
 package com.kzn.itis.db.util;
 
-import org.hibernate.ejb.HibernatePersistence;
+//import org.hibernate.ejb.HibernatePersistence;
 
+import javax.activation.DataSource;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.spi.PersistenceProvider;
@@ -23,6 +24,7 @@ public class SessionUtil {
             synchronized (sessionThreadLocal) {
                 if (sessionThreadLocal.get() == null) {
                     EntityManager entityManager = getEntityManagerFactory().createEntityManager();
+                    DataSource dataSource =
                     sessionThreadLocal.set(entityManager);
                 }
             }

@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
-Tue Mar 17 23:26:10 MSK 2015:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-014c-2933-4c0c-000006efe7b8 
-on database directory E:\Program Files\Java Programs\workspace\spring-property-management\db with class loader java.net.URLClassLoader@5c20eeb2 
-Loaded from file:/C:/Users/Даниил/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+Thu Mar 19 14:43:28 MSK 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-014c-31a1-7913-00000580c900 
+on database directory E:\Program Files\Java Programs\workspace\spring-property-management\db with class loader sun.misc.Launcher$AppClassLoader@6d06d69c 
+Loaded from file:/C:/Users/%d0%94%d0%b0%d0%bd%d0%b8%d0%b8%d0%bb/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_20-b26
 user.dir=E:\Program Files\Java Programs\workspace\spring-property-management
