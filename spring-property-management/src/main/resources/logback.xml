@@ -8,8 +8,7 @@
         </encoder>
     </appender>
 
-    <!--<logger name="org.hibernate" level="ERROR" />-->
-    <logger name = "org.apache.derby" level = "ERROR" />
+    <logger name="org.hibernate" level="ERROR" />
 
     <root level="info">
         <appender-ref ref="STDOUT" />

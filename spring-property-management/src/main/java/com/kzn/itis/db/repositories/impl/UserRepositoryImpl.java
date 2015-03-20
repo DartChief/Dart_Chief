@@ -1,60 +1,103 @@
 package com.kzn.itis.db.repositories.impl;
 
+import com.kzn.itis.db.config.DatabaseConfiguration;
 import com.kzn.itis.db.model.User;
 import com.kzn.itis.db.repositories.UserRepository;
-import com.kzn.itis.db.util.SessionUtil;
-//import org.hibernate.Session;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 
-import javax.persistence.EntityManager;
+import java.sql.*;
+import java.util.ArrayList;
 
 public class UserRepositoryImpl implements UserRepository {
 
-    private static final Logger logger = LoggerFactory.getLogger(UserRepositoryImpl.class);
+    @Autowired
+    private DatabaseConfiguration config;
 
-    /**
-     * Trying with EntityManager
-     *
-     * @param event
-     * @return
-     */
     @Override
-    public User addUser(User event) {
-        EntityManager em = SessionUtil.getSession();
-
+    public void addUser(User user) throws SQLException {
+        Connection con = null;
         try {
-            em.getTransaction().begin();
-            em.persist(event);
-            em.getTransaction().commit();
-
-        } catch (Exception e) {
-            logger.error("Error: ", e);
-            try {
-                em.getTransaction().rollback();
-            } catch (Exception ex) {
-                // swallow
-            }
+            con  = DriverManager.getConnection(config.getDbUrl());
+            Statement statement = con.createStatement();
+            String sql = "INSERT INTO STUDENTS VALUES (" + user.getId() + ",'" + user.getFirstname()
+                    + "','" + user.getAge() + "')";
+            statement.executeUpdate(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
         } finally {
-            SessionUtil.close();
+            assert con != null;
+            con.close();
         }
-
-        return event;
     }
 
-    /**
-     * There are several ways to get count.
-     *
-     * Here we implement it with the Hibernate Session - by using unwrap from JPA 2.0
-     *
-     * @return
-     */
     @Override
-    public long getCount() {
-        EntityManager em = SessionUtil.getSession();
-        Session session = em.unwrap(Session.class);
+    public void update(String name, int age, int id) throws SQLException { //можно передать User
+        Connection con = null;
+        try {
+            con  = DriverManager.getConnection(config.getDbUrl());
+            Statement statement = con.createStatement();
+            String sql = "UPDATE USERS SET FirstName = '" + name + "', Age = " +  age + ", WHERE id = " + id;
+            statement.executeUpdate(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            assert con != null;
+            con.close();
+        }
+    }
 
-        //You can find the size of a collection without initializing it
-        return (Long) session.createQuery("select count(*) from User").iterate().next();
+    @Override
+    public void delete(int id) throws SQLException {
+        Connection con = null;
+        try {
+            con  = DriverManager.getConnection(config.getDbUrl());
+            Statement statement = con.createStatement();
+            String sql = "DELETE FROM USERS WHERE  Id = " + id;
+            statement.executeUpdate(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            assert con != null;
+            con.close();
+        }
+    }
+
+    @Override
+    public ArrayList<User> showAll() throws SQLException {
+        Connection con = null;
+        ArrayList<User> all = null;
+        try {
+            con = DriverManager.getConnection(config.getDbUrl());
+            Statement statement = con.createStatement();
+            String sql = "SELECT * FROM USERS";
+            ResultSet res = statement.executeQuery(sql);
+            all = new ArrayList();
+            while (res.next()) {
+                all.add(new User(res.getInt("Id"), res.getString("FirstName"), res.getInt("Age")));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            assert con != null;
+            con.close();
+        }
+        return all;
+    }
+
+    @Override
+    public int getCount() throws SQLException {
+//        Connection con = null;
+//        try {
+//            con  = DriverManager.getConnection(config.getDbUrl());
+//            Statement statement = con.createStatement();
+//            showAll().size();
+//            ResultSet res = statement.executeQuery()
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        } finally {
+//            assert con != null;
+//            con.close();
+//        }
+        return showAll().size();
     }
 }

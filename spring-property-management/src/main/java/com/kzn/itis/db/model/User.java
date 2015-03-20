@@ -1,16 +1,19 @@
 package com.kzn.itis.db.model;
 
-import javax.persistence.*;
 
-@Entity
-@Table(name="users")
+import com.kzn.itis.db.config.DatabaseConfiguration;
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class User {
+
+    @Autowired
+    private DatabaseConfiguration config;
 
     private int id;
 
-    @Column(name = "id")
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    public User(int id, String firstName, int age) {
+    }
+
     public int getId() {
         return id;
     }
@@ -21,8 +24,6 @@ public class User {
 
     private String firstname;
 
-    @Column(name = "firstname")
-    @Basic
     public String getFirstname() {
         return firstname;
     }
@@ -30,23 +31,9 @@ public class User {
     public void setFirstname(String firstname) {
         this.firstname = firstname;
     }
-
-    private String lastname;
-
-    @Column(name = "lastname")
-    @Basic
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
     
     private int age;
 
-    @Column(name = "age")
-    @Basic
     public int getAge() {
         return age;
     }
@@ -54,31 +41,5 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        User event = (User) o;
-
-        if (id != event.id) return false;
-        if (lastname != null ? !lastname.equals(event.lastname) : event.lastname != null) return false;
-
-        if (age != event.age) return false;
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = id;
-        result = 31 * result + (firstname != null ? firstname.hashCode() : 0);
-        result = 31 * result + (lastname != null ? lastname.hashCode() : 0);
-        result = 31 * result + age;
-
-        return result;
-    }
-
 
 }
