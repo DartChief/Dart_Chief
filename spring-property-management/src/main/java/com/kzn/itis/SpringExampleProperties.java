@@ -2,6 +2,7 @@ package com.kzn.itis;
 
 import com.kzn.itis.db.config.DatabaseConfiguration;
 import com.kzn.itis.db.model.User;
+import com.kzn.itis.db.repositories.UserRepository;
 import com.kzn.itis.db.repositories.impl.UserRepositoryImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,7 +34,7 @@ public class SpringExampleProperties {
 //        return sql;
 //    }
 
-    public void run() throws SQLException {
+    public void run(UserRepository userRepository) throws SQLException {
         logger.info("Welcome to Example Application");
         logger.info("url=" + config.getDbUrl());
         logger.info("username=" + config.getDbUser());
@@ -50,10 +51,17 @@ public class SpringExampleProperties {
             Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
             con = DriverManager.getConnection(config.getDbUrl());
             Statement stmt = con.createStatement();
-            String sql = "CREATE TABLE USERS (" + "id INTEGER not NULL,"
-                    + " FirstName VARCHAR(256),"
-                    + " Age INTEGER, PRIMARY KEY (id))";
-            stmt.executeUpdate(sql);
+            try {
+                String sql = "CREATE TABLE USERS (" + "Id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),"
+                        + " Name VARCHAR(256),"
+                        + " Age INTEGER, PRIMARY KEY (Id))";
+                stmt.executeUpdate(sql);
+            } catch (SQLException s) {
+                if(s.getSQLState().equals("X0Y32"))
+                logger.info("Table is already exists!");
+            } finally {
+                con.close();
+            }
 //            String sql = "SELECT s.LastName || ' ' || s.FirstName Name, o.TotalAmount FROM STUDENTS s LEFT JOIN Orders o ON o.Customerid = s.id";
 //            ResultSet res = stmt.executeQuery(sql);
 //            while (res.next()) {
@@ -64,20 +72,49 @@ public class SpringExampleProperties {
 //            String sql4 = "DROP TABLE ORDERS";
 //            stmt.executeUpdate(sql4);
         } catch (Exception e) {
-            e.printStackTrace();
+                e.printStackTrace();
         } finally {
             assert con != null;
             con.close();
         }
-        UserRepositoryImpl userRepository = new UserRepositoryImpl();
-        userRepository.addUser(new User(1, "Sherlock", 39));
-        userRepository.addUser(new User(2, "Watson", 42));
-        userRepository.addUser(new User(3, "Mycroft", 43));
-        userRepository.delete(2);
-        userRepository.update("Baskey", 25, 3);
-        userRepository.showAll();
-        userRepository.getCount();
 
+        userRepository.addUser(new User("Sherlock", 39));
+        logger.info("User has been added!");
+        userRepository.addUser(new User("Watson", 42));
+        logger.info("User has been added!");
+        userRepository.addUser(new User("Mycroft", 45));
+        logger.info("User has been added!");
+        userRepository.addUser(new User("Polly", 34));
+        logger.info("User has been added!");
+        userRepository.addUser(new User("Mrs.Hudson", 63));
+        logger.info("User has been added!");
+        System.out.println("Count = " + String.valueOf(userRepository.getCount()));
+        logger.info("User has been deleted!");
+        userRepository.showAll();
+        userRepository.addUser(new User("Lestrade", 44));
+        logger.info("User has been added!");
+        userRepository.addUser(new User("Moriarty", 38));
+        logger.info("User has been added!");
+        System.out.println("Count = " + String.valueOf(userRepository.getCount()));
+        userRepository.delete(7);
+        logger.info("User has been deleted!");
+        userRepository.update("Iren", 35, 4);
+        logger.info("User has been updated!");
+        userRepository.showAll();
+        System.out.println("Count = " + String.valueOf(userRepository.getCount()));
+
+//        try {
+//            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+//            con = DriverManager.getConnection(config.getDbUrl());
+//            Statement stmt = con.createStatement();
+//            String sql = "DROP TABLE USERS";
+//            stmt.executeUpdate(sql);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        } finally {
+//            assert con != null;
+//            con.close();
+//        }
 
     }
 
@@ -103,6 +140,7 @@ public class SpringExampleProperties {
     public static void main(String... args) throws SQLException {
         AbstractApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
         SpringExampleProperties main = (SpringExampleProperties)context.getBean("exampleApp");
-        main.run();
+        UserRepositoryImpl userRepository = (UserRepositoryImpl)context.getBean("userRepo");
+        main.run(userRepository);
     }
 }

@@ -6,7 +6,6 @@ import com.kzn.itis.db.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.sql.*;
-import java.util.ArrayList;
 
 public class UserRepositoryImpl implements UserRepository {
 
@@ -19,8 +18,8 @@ public class UserRepositoryImpl implements UserRepository {
         try {
             con  = DriverManager.getConnection(config.getDbUrl());
             Statement statement = con.createStatement();
-            String sql = "INSERT INTO STUDENTS VALUES (" + user.getId() + ",'" + user.getFirstname()
-                    + "','" + user.getAge() + "')";
+            String sql = "INSERT INTO USERS VALUES (DEFAULT ,'" + user.getName()
+                    + "'," + user.getAge() + ")";
             statement.executeUpdate(sql);
         } catch (SQLException e) {
             e.printStackTrace();
@@ -31,12 +30,12 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public void update(String name, int age, int id) throws SQLException { //можно передать User
+    public void update(String name, int age, int id) throws SQLException {
         Connection con = null;
         try {
             con  = DriverManager.getConnection(config.getDbUrl());
             Statement statement = con.createStatement();
-            String sql = "UPDATE USERS SET FirstName = '" + name + "', Age = " +  age + ", WHERE id = " + id;
+            String sql = "UPDATE USERS SET Name = '" + name + "', Age = " + age + " WHERE Id = " + id;
             statement.executeUpdate(sql);
         } catch (SQLException e) {
             e.printStackTrace();
@@ -63,17 +62,16 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public ArrayList<User> showAll() throws SQLException {
+    public void showAll() throws SQLException {
         Connection con = null;
-        ArrayList<User> all = null;
         try {
             con = DriverManager.getConnection(config.getDbUrl());
             Statement statement = con.createStatement();
             String sql = "SELECT * FROM USERS";
             ResultSet res = statement.executeQuery(sql);
-            all = new ArrayList();
+            //all = new ArrayList<User>();
             while (res.next()) {
-                all.add(new User(res.getInt("Id"), res.getString("FirstName"), res.getInt("Age")));
+                System.out.println(res.getInt(1) + " " + res.getString(2) + " " + res.getInt(3));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -81,23 +79,28 @@ public class UserRepositoryImpl implements UserRepository {
             assert con != null;
             con.close();
         }
-        return all;
+        //return all;
     }
 
     @Override
-    public int getCount() throws SQLException {
-//        Connection con = null;
-//        try {
-//            con  = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement();
-//            showAll().size();
-//            ResultSet res = statement.executeQuery()
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
-        return showAll().size();
+    public long getCount() throws SQLException {
+        Connection con = null;
+        int i = 0;
+        try {
+            con = DriverManager.getConnection(config.getDbUrl());
+            Statement statement = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
+                    ResultSet.CONCUR_READ_ONLY);
+            String sql = "SELECT * FROM USERS";
+            ResultSet res = statement.executeQuery(sql);
+            while(res.next()) {
+                i++;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            assert con != null;
+            con.close();
+        }
+        return i;
     }
 }

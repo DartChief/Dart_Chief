@@ -10,11 +10,10 @@
     <context:annotation-config/>
     
     <context:component-scan base-package="com.kzn.itis.db.config"/>
-    <context:property-placeholder location="file:./derby-env.properties"/>
+    <context:property-placeholder location="file:derby-env.properties"/>
 
     <bean name="exampleApp" class="com.kzn.itis.SpringExampleProperties"/>
-
-
+    <bean name="userRepo" class="com.kzn.itis.db.repositories.impl.UserRepositoryImpl"/>
 
 </beans>
 
