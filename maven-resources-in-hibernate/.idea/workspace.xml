@@ -2,50 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67bb4d72-07f9-4855-9f8c-868d8bbda429" name="Default" comment="All tasks done, built was successful.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kzn/itis/ExampleMain.class" afterPath="$PROJECT_DIR$/target/classes/com/kzn/itis/ExampleMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c101.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c101.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c101.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c101.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c111.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c111.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c111.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c111.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c121.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c121.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c121.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c121.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c130.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c130.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c130.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c130.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c141.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c141.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c141.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c141.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c20.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c20.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c20.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c20.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c31.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c31.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c31.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c31.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c41.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c41.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c41.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c41.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c51.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c51.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c51.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c51.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c60.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c60.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c60.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c60.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c71.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c71.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c71.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c71.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c81.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c81.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c81.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c81.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/c90.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/c90.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/c90.dat" afterPath="$PROJECT_DIR$/db_test/seg0/c90.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/ca1.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/ca1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/ca1.dat" afterPath="$PROJECT_DIR$/db_test/seg0/ca1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/cb1.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/cb1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/cb1.dat" afterPath="$PROJECT_DIR$/db_test/seg0/cb1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/seg0/cf0.dat" afterPath="$PROJECT_DIR$/db_dev/seg0/cf0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/seg0/cf0.dat" afterPath="$PROJECT_DIR$/db_test/seg0/cf0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/db.lck" afterPath="$PROJECT_DIR$/db_dev/db.lck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/db.lck" afterPath="$PROJECT_DIR$/db_test/db.lck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/log/log.ctrl" afterPath="$PROJECT_DIR$/db_dev/log/log.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/log/log.ctrl" afterPath="$PROJECT_DIR$/db_test/log/log.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/log/log1.dat" afterPath="$PROJECT_DIR$/db_dev/log/log1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/log/log1.dat" afterPath="$PROJECT_DIR$/db_test/log/log1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_dev/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/db_dev/log/logmirror.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_test/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/db_test/log/logmirror.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="resource-filtering.iws" />
@@ -95,7 +51,7 @@
       <file leaf-file-name="ExampleMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kzn/itis/ExampleMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="2450">
+            <state vertical-scroll-proportion="0.0" vertical-offset="771" max-vertical-offset="2450">
               <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,12 +67,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="30325">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="30075">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1427045367890" expanded="true" signature="67910:67958" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestUserRepository.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestUserRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kzn/itis/db/repositories/impl/TestUserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6343714" vertical-offset="0" max-vertical-offset="867">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -248,7 +206,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -381,7 +339,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -718,11 +676,19 @@
       <workItem from="1426530134647" duration="660000" />
       <workItem from="1426590279618" duration="1018000" />
       <workItem from="1426591329069" duration="1931000" />
+      <workItem from="1427045036373" duration="338000" />
     </task>
+    <task id="LOCAL-00001" summary="All tasks done, built was successful.">
+      <created>1427045277971</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1427045277972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14844000" />
+    <option name="totallyTimeSpent" value="15182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -731,6 +697,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -740,7 +707,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29090908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29090908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17540108" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -751,7 +718,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -799,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1475">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="175">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="725">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1475">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="175">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="725">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1475">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="175">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="1475">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1475">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1475">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1475">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175">
           <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,7 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,7 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46136102" vertical-offset="0" max-vertical-offset="867">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,7 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1225">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,7 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,17 +1159,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kzn/itis/db/repositories/impl/TestUserRepository.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29700">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1427045367890" expanded="true" signature="67910:67958" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kzn/itis/ExampleMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="2450">
+        <state vertical-scroll-proportion="0.0" vertical-offset="771" max-vertical-offset="2450">
           <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1240,10 +1186,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kzn/itis/db/repositories/impl/TestUserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29700">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6343714" vertical-offset="0" max-vertical-offset="867">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
