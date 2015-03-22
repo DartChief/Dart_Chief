@@ -2,175 +2,1226 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67bb4d72-07f9-4855-9f8c-868d8bbda429" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_springframework_spring_tx_4_1_2_RELEASE.xml" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\dataSources.ids" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Java_EE_6_Java_EE_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__antlr_antlr_2_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__c3p0_c3p0_0_9_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__cglib_cglib_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__ch_qos_logback_logback_classic_1_0_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__ch_qos_logback_logback_core_1_0_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__com_google_code_gson_gson_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__com_squareup_retrofit_retrofit_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__commons_io_commons_io_2_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__joda_time_joda_time_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__net_sf_ehcache_ehcache_core_2_4_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_apache_derby_derby_10_11_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_aspectj_aspectjrt_1_6_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_easymock_easymock_3_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_hibernate_hibernate_c3p0_4_1_9_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_hibernate_hibernate_core_4_1_9_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_hibernate_hibernate_ehcache_4_1_9_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_hibernate_hibernate_entitymanager_4_1_9_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_javassist_javassist_3_17_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_springframework_spring_aop_4_1_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_springframework_spring_beans_4_1_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_springframework_spring_context_4_1_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_springframework_spring_core_4_1_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\libraries\Maven__org_springframework_spring_expression_4_1_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\sqldialects.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\db.lck" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\log\README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\log\log.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\log\log1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\log\logmirror.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c10.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c101.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c111.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c121.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c130.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c141.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c150.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c161.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c171.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c180.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c191.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c1a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c1b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c1c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c1d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c1e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c1f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c20.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c200.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c211.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c221.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c230.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c241.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c251.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c260.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c271.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c281.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c290.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c2a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c2b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c2c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c2d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c2e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c2f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c300.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c31.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c311.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c321.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c331.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c340.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c351.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c361.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c371.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c380.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c391.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c3a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c3b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c3c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c3d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c3e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c3f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c400.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c41.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c411.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c421.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c430.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c441.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c451.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c461.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c470.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c481.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c490.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c4a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c51.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c60.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c71.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c81.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\c90.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\ca1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\cb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\cc0.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\cd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\ce1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\cf0.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\d4b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\d4c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\d4d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\seg0\d4e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\db\service.properties" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\derby-env.properties" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\derby.log" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\exec.bat" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\lib\javax.annotation.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\lib\javax.ejb.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\lib\javax.jms.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\lib\javax.persistence.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\lib\javax.resource.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\lib\javax.servlet.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\lib\javax.servlet.jsp.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\lib\javax.servlet.jsp.jstl.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\lib\javax.transaction.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\property-management.iml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\spring-property-management.iml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\java\com\kzn\itis\SpringExampleProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\java\com\kzn\itis\db\config\DatabaseConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\java\com\kzn\itis\db\model\User.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\java\com\kzn\itis\db\repositories\UserRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\java\com\kzn\itis\db\repositories\impl\UserRepositoryImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\java\com\kzn\itis\db\util\SessionUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\resources\META-INF\c3p0.properties" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\resources\META-INF\persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\resources\application-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\resources\init-create.sql" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\main\resources\logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Program Files\Java Programs\workspace\spring-property-management-for-hibernate\src\test\java\com\kzn\itis\db\repositories\impl\TestUserRepositoryWithSpring.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-property-management/src/main/java/com/kzn/itis/db/util/SessionUtil.java" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/java/com/kzn/itis/db/util/SessionUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/AbstractLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/AbstractLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/AbstractLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/AbstractLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/Actions$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/Actions$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/Actions.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/test-classes/com/springapp/mvc/AppTests.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/out/production/JDBCProject/Application.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/Second/Bird.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Model/Book.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/out/production/TrafficLight/ButtonListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/out/production/less_knt_2/ButtonListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/out/production/ProgaTest1/ClientPackage/Client$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/out/production/ProgaTest1/ClientPackage/Client$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/out/production/ProgaTest1/ClientPackage/Client$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/out/production/ProgaTest1/ClientPackage/Client$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/out/production/FirstTest/Client.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/First/Client.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/out/production/ProgaTest1/ClientPackage/Client.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/out/production/FirstSocketProgram/Client1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/out/production/FirstSocketProgram/Client2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/out/production/ProgaTest1/ServerPackage/ClientThread.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/out/production/RegExColor/ColorValidation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/out/production/Minesweeper/main/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/out/production/Minesweeper/main/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/out/production/IOFour/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/out/production/An Interactive Program/main/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/out/production/FirstJavaFXApp/sample/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/out/production/Introducing Style Sheets/main/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/out/production/Introducing Style Sheets/main/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/out/production/FirstDB/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyFuckingNewCW/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewCW/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewFuckingCW/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/out/production/NIOFive/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/out/production/NIOSix/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/Second/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/Kate/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/out/production/RegExDate/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/Second/Creature.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/target/classes/ProjectsJDBC/lesson2/DBWorker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Controller/DataBaseController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/out/production/TF/Database.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/DateValidator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/DateValidator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/out/production/RegExDate/DateValidator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/DimensionInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/DimensionInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/DimensionInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/DimensionInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L1T1/Equation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/Expression/Expression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/Third/FileCreator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L1T4/Fraction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/GridConstraints.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/GridConstraints.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/GridConstraints.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/GridConstraints.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/GridLayoutManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/GridLayoutManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/GridLayoutManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/GridLayoutManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Controller/GuiController$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Controller/GuiController$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Controller/GuiController$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Controller/GuiController$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Controller/GuiController$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Controller/GuiController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Controller/GuiCreator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/classes/com/springapp/mvc/HelloController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/classes/com/springapp/mvc/HelloController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/HorizontalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/HorizontalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/HorizontalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/HorizontalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/Expression/IExpression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/Information.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/LayoutState.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/LayoutState.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/LayoutState.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/LayoutState.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2T1/Line.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2T1/LineComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/Main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/out/production/TF/Main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/out/production/Bomber/Main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/out/production/Bomber/Main$MyActionListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/out/production/Bomber/Main$MyMouseListeer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/out/production/TF/Main$curveIcon.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/out/production/Minesweeper/main/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/out/production/Minesweeper/main/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/out/production/FirstSocketProgram/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/out/production/FirstTest/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/out/production/Fresnel/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/out/production/GoldCode/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/out/production/HelloMotherfuckers/forTest/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/out/production/Honeycomb/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/out/production/IOFour/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/out/production/An Interactive Program/main/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/out/production/FirstJavaFXApp/sample/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/out/production/Introducing Style Sheets/main/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/out/production/Introducing Style Sheets/main/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/out/production/FirstDB/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyFuckingNewCW/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewCW/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewFuckingCW/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/out/production/NIOFive/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/out/production/NIOSix/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/Second/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/Third/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/Kate/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L1T1/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L1T2/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L1T3/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L1T4/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2T1/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L3/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/out/production/RegExColor/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/out/production/RegExDate/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/out/production/TF/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/out/production/Bomber/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/out/production/TrafficLight/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/out/production/less_knt_2/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/target/classes/ProjectsJDBC/lesson1/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/target/classes/ProjectsJDBC/lesson2/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/target/classes/ProjectsJDBC/lesson3/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/Second/Milkman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/out/production/IOFour/Model.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/out/production/FirstDB/Model.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyFuckingNewCW/Model.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewCW/Model.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewFuckingCW/Model.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/out/production/RegExColor/Model.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/MouseController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/out/production/TF/NewJFrame$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/out/production/TF/NewJFrame$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/out/production/TF/NewJFrame$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/out/production/TF/NewJFrame.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/out/production/FirstTest/ObjectPool$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/out/production/FirstTest/ObjectPool.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/First/ObjectPool.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/out/production/JDBCProject/Order.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L1T2/Person.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2/Point.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2T1/Point.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L1T3/Polynom.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/out/production/FirstTest/PoolCreator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/First/PoolCreator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/out/production/TF/Program.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Model/Record.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/RegEx$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/RegEx$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/RegEx.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/RegEx.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Run.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2/Segment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/First/Server$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/out/production/FirstSocketProgram/Server.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/out/production/FirstTest/Server.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/First/Server.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/out/production/ProgaTest1/ServerPackage/Server.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/out/production/Second/Snake.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/Spacer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/Spacer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/Spacer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/Spacer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/out/production/JDBCProject/Student.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/Model/Student.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/SupportCode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/SupportCode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/SupportCode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/SupportCode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/Expression/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2/Tetrahedron.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2T1/Tetrahedron.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L3/Time.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/out/production/TrafficLight/Traffic$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/out/production/less_knt_2/Traffic$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/out/production/TrafficLight/Traffic$Light.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/out/production/less_knt_2/Traffic$Light.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/out/production/TrafficLight/Traffic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/out/production/less_knt_2/Traffic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2/Triangle.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2T1/Triangle.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/L2T1/TriangleComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyFuckingNewCW/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewCW/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/target/classes/ProjectsJDBC/lesson2/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/Util.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/Util.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/Util.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/Util.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/Expression/Variable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegEx/com/intellij/uiDesigner/core/VerticalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/production/RegularExp/com/intellij/uiDesigner/core/VerticalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegEx/com/intellij/uiDesigner/core/VerticalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/out/test/RegularExp/com/intellij/uiDesigner/core/VerticalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/out/production/FirstDB/View$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyFuckingNewCW/View$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewCW/View$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewFuckingCW/View$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/Kate/View$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/View$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseMarsel/out/production/DataBaseNormal/View$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewFuckingCW/View$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/Kate/View$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/View$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseMarsel/out/production/DataBaseNormal/View$3$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseMarsel/out/production/DataBaseNormal/View$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/View$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/View$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/View$Costom.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseMarsel/out/production/DataBaseNormal/View.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/out/production/FirstDB/View.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyFuckingNewCW/View.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewCW/View.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/out/production/MyNewFuckingCW/View.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/out/production/Kate/View.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/View.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/Viewer$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/Viewer$2$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/Viewer$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/Viewer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/Watch$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/Watch.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/blank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c10.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c101.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c111.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c121.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c130.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c141.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c150.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c161.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c171.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c180.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c191.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c1a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c1b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c1c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c1d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c1e0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c1f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c20.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c200.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c211.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c221.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c230.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c241.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c251.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c260.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c271.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c281.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c290.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c2a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c2b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c2c1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c2d0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c2e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c2f0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c300.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c31.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c311.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c321.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c331.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c340.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c351.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c361.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c371.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c380.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c391.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c3a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c3b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c3c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c3d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c3e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c3f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c400.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c41.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c411.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c421.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c430.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c441.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c451.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c461.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c470.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c481.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c490.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c4a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c51.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c60.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c71.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c81.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/c90.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/ca1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/cb1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/cc0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/cd1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/ce1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/cf0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/lib/commons-logging-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/d4b0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/explosion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/exposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/flag-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/flag.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/flag.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/flag.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/flag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/flag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/hitmine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/index.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/lib/javax.annotation.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/lib/javax.ejb.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/lib/javax.jms.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/lib/javax.persistence.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/lib/javax.resource.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/lib/javax.servlet.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/lib/javax.servlet.jsp.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/lib/javax.servlet.jsp.jstl.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/lib/javax.transaction.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/out/production/FirstJavaFXApp/fxml.images/jokerLaughing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/src/fxml.images/jokerLaughing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/log/log1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/mine.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/mine.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/out/production/Saper/mine.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/mine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/out/production/GameSaper/myButton.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/number1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/number2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/number3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/number4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/number5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/number6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/number7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/number8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/lib/postgresql-9.3-1102.jdbc41.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/lib/servlet-api-2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/lib/spring-aop-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/lib/spring-beans-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/lib/spring-context-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/lib/spring-core-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/lib/spring-expression-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/lib/spring-web-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/lib/spring-webmvc-4.1.1.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/watch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/resources/wrongmine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RemoteSystemsTempFiles/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/dictionaries/.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/src/Actions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/An Interactive Program.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/src/test/java/com/springapp/mvc/AppTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/runConfigurations/AppTests.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/src/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/Second/src/Bird.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/Bomber.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/src/Model/Book.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/src/ButtonListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/src/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/src/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/First/src/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/src/ClientPackage/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/src/Client1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/src/Client2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/src/ServerPackage/ClientThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/src/ColorValidation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/src/main/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/src/main/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/src/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/src/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/src/main/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/src/sample/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/src/main/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/src/main/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/src/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/src/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/src/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/src/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/Second/src/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/src/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/Second/src/Creature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/src/main/java/ProjectsJDBC/lesson2/DBWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/src/Controller/DataBaseController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/DataBaseWork.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/src/Database.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/java/com/kzn/itis/db/config/DatabaseConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/src/DateValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/src/DateValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/Demo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/Draggable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T1/src/Equation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/Expression/Expression.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/Expression/src/Expression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/FieldCanvas.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/Third/src/FileCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/First/First.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/FirstByThreads.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/FirstDB.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/FirstJavaFXApp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/FirstSocketProgram.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/FirstTest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T4/src/Fraction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/Fresnel.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/out/production/DataBaseWork/View/GUI.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/src/View/GUI.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/src/GUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/GameSaper.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/GoldCode.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/src/Controller/GuiController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/src/Controller/GuiCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/HZ.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/model/HandlerRegistration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/HasParent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/src/main/java/com/springapp/mvc/HelloController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/HelloMotherfuckers.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/Honeycomb.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/Expression/src/IExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/IOFour.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/.idea/IldarBomber.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/src/Information.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/Introducing Style Sheets.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/Introducing Style Sheets.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/JDBCProject.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/artifacts/JavaFXApp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/artifacts/JavaFXApp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/artifacts/JavaFXApp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/artifacts/JavaFXApp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/artifacts/JavaFXApp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/artifacts/JavaFXApp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T1/L1T1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T2/L1T2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T3/L1T3.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T4/L1T4.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/L2T1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L2T1/L2T1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L3/L3.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/LOG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L2T1/src/Line.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L2T1/src/LineComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/target/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/out/production/Minesweeper/fxml/Main.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/src/fxml/Main.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/out/production/An Interactive Program/fxml/Main.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/src/fxml/Main.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/out/production/Introducing Style Sheets/fxml/Main.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/src/fxml/Main.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/out/production/Introducing Style Sheets/fxml/Main.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/src/fxml/Main.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseMarsel/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/src/SmartHead/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/src/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/src/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/src/forTest/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/src/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/src/sample/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/src/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/src/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/Second/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/Third/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T1/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T2/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T3/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T4/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L2T1/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L3/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/src/ProgrammerSchool/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/src/main/java/ProjectsJDBC/lesson1/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/src/main/java/ProjectsJDBC/lesson2/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/src/main/java/ProjectsJDBC/lesson3/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__c3p0_c3p0_0_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__cglib_cglib_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__com_squareup_retrofit_retrofit_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__commons_io_commons_io_2_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__joda_time_joda_time_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/libraries/Maven__junit_junit_4_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_apache_derby_derby_10_11_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_easymock_easymock_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_hibernate_hibernate_c3p0_4_1_9_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_hibernate_hibernate_core_4_1_9_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_hibernate_hibernate_ehcache_4_1_9_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_1_9_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_javassist_javassist_3_17_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/libraries/Maven__org_mockito_mockito_core_1_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/libraries/Maven__org_objenesis_objenesis_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_springframework_spring_aop_4_1_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__org_springframework_spring_beans_4_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_springframework_spring_beans_4_1_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__org_springframework_spring_context_4_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_springframework_spring_context_4_1_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__org_springframework_spring_core_4_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_springframework_spring_core_4_1_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__org_springframework_spring_expression_4_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/libraries/Maven__org_springframework_spring_expression_4_1_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__org_springframework_spring_test_4_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__org_springframework_spring_web_4_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/Second/src/Milkman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/model/Minefield.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/Minesweeper.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/Minesweeper.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/Minesweeper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/MinesweeperPane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/src/Model.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/src/Model.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/src/Model.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/src/Model.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/src/Model.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/test/java/org/foobar/minesweeper/model/ModelTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/src/MouseController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/src/MouseController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/out/production/FirstJavaFXApp/fxml/My.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/src/fxml/My.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/MyNewFuckingCW.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/NIOFive.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/NIOSix.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/src/NewJFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/OOP.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/OOPEx.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/OOPToshev.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/src/ObjectPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/First/src/ObjectPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/src/Order.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T2/src/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L2T1/src/Point.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L1T3/src/Polynom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/src/PoolCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/First/src/PoolCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/com/google/common/base/Preconditions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/Priests.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/ProgaTest1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/src/Program.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/log/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/seg0/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/src/Model/Record.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/RegEx.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/src/RegEx.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/RegExColor.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/RegExDate.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/RegExDateSwing.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/src/Run.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/SP.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/artifacts/SP_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/artifacts/SP_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/Saper.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/Second/Second.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/SelectionModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/src/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/src/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/src/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/First/src/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/src/ServerPackage/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/Second/src/Snake.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/java/com/kzn/itis/SpringExampleProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/model/Square.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/model/Squares.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/src/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/src/Model/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/TF.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/Expression/src/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/test/java/com/kzn/itis/db/repositories/impl/TestUserRepositoryWithSpring.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L2T1/src/Tetrahedron.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/Third/Third.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/Tiles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L3/src/Time.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/src/Traffic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/TrafficLight.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L2T1/src/Triangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/L2T1/src/TriangleComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/src/main/java/ProjectsJDBC/lesson2/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/java/com/kzn/itis/db/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/java/com/kzn/itis/db/repositories/UserRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/java/com/kzn/itis/db/repositories/impl/UserRepositoryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/Expression/src/Variable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseMarsel/src/View.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/src/View.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/src/View.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/src/View.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/src/Viewer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/src/Watch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/src/Watch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/src/WorkQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/.idea/Zachet.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/resources/application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/assembly/bin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/resources/META-INF/c3p0.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseNormal/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/db.lck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/derby-env.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/derby.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/etc/eclipse-java-google-style.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseNormal/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/exec.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/out/production/NIOFive/file" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/src/file" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/out/production/NIOSix/file" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/src/file" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/firstJDBC.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/src/main/webapp/WEB-INF/pages/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/pages/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/resources/init-create.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/log/log.ctrl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/log/logmirror.ctrl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/out/production/Introducing Style Sheets/fxml/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/src/fxml/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/out/production/Introducing Style Sheets/fxml/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/src/fxml/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/src/main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/maven-resources-in-hibernate.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/minesweeper.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseNormal/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseNormal/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/src/myButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/out/production/Minesweeper/fxml/oldMain.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/src/fxml/oldMain.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/com/google/common/base/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/src/main/java/org/foobar/minesweeper/model/package-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/src/main/resources/META-INF/persistence.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/libraries/postgresql_9_3_1102_jdbc41.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/libraries/postgresql_9_3_1102_jdbc412.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseNormal/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/property-management.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/out/production/Minesweeper/fxml/sample.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/src/fxml/sample.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/out/production/An Interactive Program/main/sample.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/out/production/FirstJavaFXApp/fxml/sample.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/out/production/Introducing Style Sheets/main/sample.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/src/main/sample.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/out/production/Introducing Style Sheets/main/sample.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/src/main/sample.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseNormal/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/db/service.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/spring-property-management.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/src/test/resources/test.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/untitled.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseNormal/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-property-management/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/target/SP/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/artifacts/web_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DataBaseNormal/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Demo/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/BadMinesweeper/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/Minesweeper/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FXML/javafx-minesweeper-master/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstByThreads/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstSocketProgram/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FirstTest/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Fresnel/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GameSaper/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../GoldCode/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HZ/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloMotherfuckers/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Honeycomb/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IOFour/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IldarBomber/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JDBCProject/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/An Interactive Program/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/FirstJavaFXApp/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Introducing Style Sheets/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaFXTutorial/Menus/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../L2T1/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyDataBaseFault/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MyNewCW/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOFive/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../NIOSix/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOPEx/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ProgrammerSchool/Priests/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExColor/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDateSwing/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RegExDate/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SP/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SaperGif/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TF/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Bomber/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/DataBaseWork/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/Socket2/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Zachet/TrafficLight/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../derby/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../firstJDBC/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="resource-filtering.iws" />
@@ -220,7 +1271,7 @@
       <file leaf-file-name="ExampleMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kzn/itis/ExampleMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33373207" vertical-offset="996" max-vertical-offset="2300">
+            <state vertical-scroll-proportion="0.3266979" vertical-offset="996" max-vertical-offset="2300">
               <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding>
                 <marker date="1426352325601" expanded="true" signature="479:597" placeholder="INSERT INTO ..." />
@@ -238,7 +1289,7 @@
       <file leaf-file-name="SessionUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kzn/itis/db/util/SessionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1400">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1025" max-vertical-offset="1400">
               <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
               <folding />
             </state>
@@ -346,10 +1397,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="319" />
-    <option name="y" value="470" />
-    <option name="width" value="960" />
-    <option name="height" value="1032" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -377,6 +1428,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -549,7 +1601,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -887,6 +1938,7 @@
       <workItem from="1426590279618" duration="1018000" />
       <workItem from="1426591329069" duration="12261000" />
       <workItem from="1426834514161" duration="104000" />
+      <workItem from="1427046779445" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="All tasks done, built was successful.">
       <created>1426593269743</created>
@@ -898,10 +1950,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25278000" />
+    <option name="totallyTimeSpent" value="25291000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="319" y="470" width="960" height="1032" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -916,7 +1968,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4327354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43262032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17540108" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1385,7 +2437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kzn/itis/ExampleMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33373207" vertical-offset="996" max-vertical-offset="2300">
+        <state vertical-scroll-proportion="0.3266979" vertical-offset="996" max-vertical-offset="2300">
           <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
           <folding>
             <marker date="1426352325601" expanded="true" signature="479:597" placeholder="INSERT INTO ..." />
