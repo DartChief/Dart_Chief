@@ -1,5 +1,5 @@
-D:\GitRepo\maven-resources-in-hibernate\src\main\java\com\kzn\itis\db\util\SessionUtil.java
-D:\GitRepo\maven-resources-in-hibernate\src\main\java\com\kzn\itis\db\model\User.java
-D:\GitRepo\maven-resources-in-hibernate\src\main\java\com\kzn\itis\ExampleMain.java
-D:\GitRepo\maven-resources-in-hibernate\src\main\java\com\kzn\itis\db\repositories\UserRepository.java
-D:\GitRepo\maven-resources-in-hibernate\src\main\java\com\kzn\itis\db\repositories\impl\UserRepositoryImpl.java
+E:\Program Files\Java Programs\workspace\maven-resources-in-hibernate\src\main\java\com\kzn\itis\db\repositories\UserRepository.java
+E:\Program Files\Java Programs\workspace\maven-resources-in-hibernate\src\main\java\com\kzn\itis\ExampleMain.java
+E:\Program Files\Java Programs\workspace\maven-resources-in-hibernate\src\main\java\com\kzn\itis\db\model\User.java
+E:\Program Files\Java Programs\workspace\maven-resources-in-hibernate\src\main\java\com\kzn\itis\db\util\SessionUtil.java
+E:\Program Files\Java Programs\workspace\maven-resources-in-hibernate\src\main\java\com\kzn\itis\db\repositories\impl\UserRepositoryImpl.java
