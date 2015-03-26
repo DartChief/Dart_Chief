@@ -69,7 +69,6 @@ public class UserRepositoryImpl implements UserRepository {
             Statement statement = con.createStatement();
             String sql = "SELECT * FROM USERS";
             ResultSet res = statement.executeQuery(sql);
-            //all = new ArrayList<User>();
             while (res.next()) {
                 System.out.println(res.getInt(1) + " " + res.getString(2) + " " + res.getInt(3));
             }
@@ -79,7 +78,6 @@ public class UserRepositoryImpl implements UserRepository {
             assert con != null;
             con.close();
         }
-        //return all;
     }
 
     @Override

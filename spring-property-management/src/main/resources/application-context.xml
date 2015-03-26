@@ -14,6 +14,7 @@
 
     <bean name="exampleApp" class="com.kzn.itis.SpringExampleProperties"/>
     <bean name="userRepo" class="com.kzn.itis.db.repositories.impl.UserRepositoryImpl"/>
+    <bean name="orderRepo" class="com.kzn.itis.db.repositories.impl.OrderRepositoryImpl"/>
 
 </beans>
 
