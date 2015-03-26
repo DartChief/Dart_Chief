@@ -39,8 +39,11 @@ public class SpringExampleProperties {
                         + " Age INTEGER, PRIMARY KEY (Id))";
                 stmt.executeUpdate(sql);
             } catch (SQLException s) {
-                if(s.getSQLState().equals("X0Y32"))
-                logger.info("Table is already exists!");
+                if(s.getSQLState().equals("X0Y32")) {
+                    logger.info("Table is already exists!");
+                } else {
+                    logger.info("Table USERS was created!");
+                }
             } finally {
                 con1.close();
             }
@@ -63,8 +66,11 @@ public class SpringExampleProperties {
                         + " SalesPersonalId INTEGER, PRIMARY KEY (Id))";
                 stmt.executeUpdate(sql);
             } catch (SQLException s) {
-                if(s.getSQLState().equals("X0Y32"))
+                if(s.getSQLState().equals("X0Y32")) {
                     logger.info("Table is already exists!");
+                } else {
+                    logger.info("Table ORDERS was created!");
+                }
             } finally {
                 con2.close();
             }
@@ -75,8 +81,8 @@ public class SpringExampleProperties {
             con2.close();
         }
 
-        UserRepository userRepository = context.getBean("userRepo", UserRepository.class);
-        OrderRepository orderRepository = context.getBean("orderRepo", OrderRepository.class);
+        UserRepository userRepository = context.getBean("userRepository", UserRepository.class);
+        OrderRepository orderRepository = context.getBean("orderRepository", OrderRepository.class);
 
         usersWorkflow(userRepository);
         ordersWorkflow(orderRepository);
@@ -84,19 +90,19 @@ public class SpringExampleProperties {
     }
 
     public void usersWorkflow(UserRepository userRepository) throws SQLException {
-        System.out.println("Count = " + String.valueOf(userRepository.getCount()));
+        System.out.println("Users count = " + String.valueOf(userRepository.getCount()));
         userRepository.showAll();
         userRepository.addUser(new User("Sherloc", 39));
         logger.info("User has been added!");
         userRepository.addUser(new User("Watson", 42));
         logger.info("User has been added!");
-        System.out.println("Count = " + String.valueOf(userRepository.getCount()));
+        System.out.println("Users count = " + String.valueOf(userRepository.getCount()));
         userRepository.delete(2);
         logger.info("User has been deleted!");
         userRepository.update("Sherlock", 38, 1);
         logger.info("User has been updated!");
         userRepository.showAll();
-        System.out.println("Count = " + String.valueOf(userRepository.getCount()));
+        System.out.println("Users count = " + String.valueOf(userRepository.getCount()));
 
 //        userRepository.addUser(new User("Mycroft", 45));
 //        logger.info("User has been added!");
@@ -121,19 +127,19 @@ public class SpringExampleProperties {
     }
 
     public void ordersWorkflow(OrderRepository orderRepository) throws SQLException {
-        System.out.println("Total Amount = " + String.valueOf(orderRepository.getAmount()));
+        System.out.println("Orders count = " + String.valueOf(orderRepository.getCount()));
         orderRepository.showAll();
         orderRepository.addOrder(new Order("Evidence", 1, 1));
         logger.info("Order has been added!");
         orderRepository.addOrder(new Order("Guns", 2, 2));
         logger.info("Order has been added!");
-        System.out.println("Amount = " + String.valueOf(orderRepository.getAmount()));
+        System.out.println("Orders count = " + String.valueOf(orderRepository.getCount()));
         orderRepository.delete(1);
         logger.info("Order has been deleted!");
-        orderRepository.update("Roses", 2);
+        orderRepository.update("Roses", 3, 2);
         logger.info("Order has been updated!");
         orderRepository.showAll();
-        System.out.println("Amount = " + String.valueOf(orderRepository.getAmount()));
+        System.out.println("Orders count = " + String.valueOf(orderRepository.getCount()));
     }
 
     public static void main(String... args) throws SQLException {
