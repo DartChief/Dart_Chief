@@ -10,11 +10,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jdbc.core.JdbcTemplate;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
+import javax.sql.DataSource;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.List;
 
 public class SpringExampleProperties {
@@ -24,63 +23,30 @@ public class SpringExampleProperties {
     @Autowired
     private DatabaseConfiguration config;
 
+
+    private JdbcTemplate jdbcTemplate;
+
+    @Autowired
+    public void setDataSource(DataSource dataSource) {
+
+        this.jdbcTemplate = new JdbcTemplate(dataSource);
+
+    }
+
     public void run(AbstractApplicationContext context) throws SQLException {
         logger.info("Welcome to Example Application");
         logger.info("url=" + config.getDbUrl());
         logger.info("username=" + config.getDbUser());
 
-        Connection con1 = null;
-        try {
-            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
-            con1 = DriverManager.getConnection(config.getDbUrl());
-            Statement stmt = con1.createStatement();
-            try {
-                String sql = "CREATE TABLE USERS (" + "Id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),"
-                        + " Name VARCHAR(256),"
-                        + " Age INTEGER, PRIMARY KEY (Id))";
-                stmt.executeUpdate(sql);
-            } catch (SQLException s) {
-                if(s.getSQLState().equals("X0Y32")) {
-                    logger.info("Table is already exists!");
-                } else {
-                    logger.info("Table USERS was created!");
-                }
-            } finally {
-                con1.close();
-            }
-        } catch (Exception e) {
-                e.printStackTrace();
-        } finally {
-            assert con1 != null;
-            con1.close();
-        }
+        // Добавить чтобы проверяла на существование таблицы
+        jdbcTemplate.update("CREATE TABLE USERS (" + "Id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),"
+                + " Name VARCHAR(256),"
+                + " Age INTEGER, PRIMARY KEY (Id))");
 
-        Connection con2 = null;
-        try {
-            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
-            con2 = DriverManager.getConnection(config.getDbUrl());
-            Statement stmt = con2.createStatement();
-            try {
-                String sql = "CREATE TABLE ORDERS (" + "Id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),"
-                        + " Name VARCHAR(45),"
-                        + " CustomerId INTEGER,"
-                        + " SalesPersonalId INTEGER, PRIMARY KEY (Id))";
-                stmt.executeUpdate(sql);
-            } catch (SQLException s) {
-                if(s.getSQLState().equals("X0Y32")) {
-                    logger.info("Table is already exists!");
-                } else {
-                    logger.info("Table ORDERS was created!");
-                }
-            } finally {
-                con2.close();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            assert con2 != null;
-            con2.close();
-        }
+        jdbcTemplate.update("CREATE TABLE ORDERS (" + "Id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),"
+                + " Name VARCHAR(45),"
+                + " CustomerId INTEGER,"
+                + " SalesPersonalId INTEGER, PRIMARY KEY (Id))");
 
         UserRepository userRepository = context.getBean("userRepository", UserRepository.class);
         OrderRepository orderRepository = context.getBean("orderRepository", OrderRepository.class);
