@@ -1,16 +1,16 @@
 package com.kzn.itis.db.repositories.impl;
 
-import com.kzn.itis.db.model.User;
-import com.kzn.itis.db.repositories.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
-import org.springframework.stereotype.Repository;
+        import com.kzn.itis.db.model.User;
+        import com.kzn.itis.db.repositories.UserRepository;
+        import org.springframework.beans.factory.annotation.Autowired;
+        import org.springframework.jdbc.core.JdbcTemplate;
+        import org.springframework.jdbc.core.RowMapper;
+        import org.springframework.stereotype.Repository;
 
-import javax.sql.DataSource;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.List;
+        import javax.sql.DataSource;
+        import java.sql.ResultSet;
+        import java.sql.SQLException;
+        import java.util.List;
 
 @Repository
 public class UserRepositoryImpl implements UserRepository {
