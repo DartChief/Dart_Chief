@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/kzn/itis/SpringExampleProperties.java" dialect="Derby" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/kzn/itis/db/repositories/UserRepository.java" dialect="Derby" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/kzn/itis/db/repositories/impl/UserRepositoryImpl.java" dialect="Derby" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/db-scheme.sql" dialect="Derby" />
   </component>
 </project>

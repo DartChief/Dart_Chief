@@ -1,104 +1,71 @@
-//package com.kzn.itis.db.repositories.impl;
-//
-//import com.kzn.itis.db.config.DatabaseConfiguration;
-//import com.kzn.itis.db.model.User;
-//import com.kzn.itis.db.repositories.UserRepository;
-//import org.springframework.beans.factory.annotation.Autowired;
-//
-//import java.sql.*;
-//
-//public class UserRepositoryImpl implements UserRepository {
-//
-//    @Autowired
-//    private DatabaseConfiguration config;
-//
-//    @Override
-//    public void addUser(User user) throws SQLException {
-//        Connection con = null;
-//        try {
-//            con  = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement();
-//            String sql = "INSERT INTO USERS VALUES (DEFAULT ,'" + user.getName()
-//                    + "'," + user.getAge() + ")";
-//            statement.executeUpdate(sql);
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
-//    }
-//
-//    @Override
-//    public void update(String name, int age, int id) throws SQLException {
-//        Connection con = null;
-//        try {
-//            con  = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement();
-//            String sql = "UPDATE USERS SET Name = '" + name + "', Age = " + age + " WHERE Id = " + id;
-//            statement.executeUpdate(sql);
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
-//    }
-//
-//    @Override
-//    public void delete(int id) throws SQLException {
-//        Connection con = null;
-//        try {
-//            con  = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement();
-//            String sql = "DELETE FROM USERS WHERE  Id = " + id;
-//            statement.executeUpdate(sql);
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
-//    }
-//
-//    @Override
-//    public void showAll() throws SQLException {
-//        Connection con = null;
-//        try {
-//            con = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement();
-//            String sql = "SELECT * FROM USERS";
-//            ResultSet res = statement.executeQuery(sql);
-//            while (res.next()) {
-//                System.out.println(res.getInt(1) + " " + res.getString(2) + " " + res.getInt(3));
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
-//    }
-//
-//    @Override
-//    public long getCount() throws SQLException {
-//        Connection con = null;
-//        int i = 0;
-//        try {
-//            con = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
-//                    ResultSet.CONCUR_READ_ONLY);
-//            String sql = "SELECT * FROM USERS";
-//            ResultSet res = statement.executeQuery(sql);
-//            while(res.next()) {
-//                i++;
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
-//        return i;
-//    }
-//}
+package com.kzn.itis.db.repositories.impl;
+
+import com.kzn.itis.db.model.User;
+import com.kzn.itis.db.repositories.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.stereotype.Repository;
+
+import javax.sql.DataSource;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+@Repository
+public class UserRepositoryImpl implements UserRepository {
+
+    private JdbcTemplate jdbcTemplate;
+
+    @Autowired
+    public void setDataSource(DataSource dataSource) {
+
+        this.jdbcTemplate = new JdbcTemplate(dataSource);
+
+    }
+
+    @Override
+    public void addUser(User user) throws SQLException {
+        jdbcTemplate.update("INSERT INTO USERS VALUES (DEFAULT,?,?)",
+                user.getName(),
+                user.getAge()
+        );
+    }
+
+    @Override
+    public void update(String name, int age, int id) throws SQLException {
+        jdbcTemplate.update("UPDATE USERS SET Name = ?, Age = ? WHERE Id = ?",
+                name,
+                age,
+                id);
+    }
+
+    @Override
+    public void delete(int id) throws SQLException {
+        jdbcTemplate.update("DELETE FROM USERS WHERE Id = ?",
+                id);
+    }
+
+    @Override
+    public List<User> showAll() throws SQLException {
+        List<User> users = this.jdbcTemplate.query(
+                "SELECT Id, Name, Age FROM USERS",
+                new RowMapper<User>() {
+                    @Override
+                    public User mapRow(ResultSet resultSet, int i) throws SQLException {
+                        User user = new User();
+                        user.setId(resultSet.getInt("Id"));
+                        user.setName(resultSet.getString("Name"));
+                        user.setAge(resultSet.getInt("Age"));
+                        return user;
+                    }
+                }
+        );
+        return users;
+    }
+
+    @Override
+    public long getCount() throws SQLException {
+        return jdbcTemplate.queryForList("SELECT * FROM USERS").size();
+    }
+}

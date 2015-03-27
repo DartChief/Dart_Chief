@@ -3,8 +3,8 @@ package com.kzn.itis;
 import com.kzn.itis.db.config.DatabaseConfiguration;
 import com.kzn.itis.db.model.Order;
 import com.kzn.itis.db.model.User;
-import com.kzn.itis.db.repositories.OrderRepository;
-import com.kzn.itis.db.repositories.UserRepository;
+import com.kzn.itis.db.repositories.impl.OrderRepositoryImpl;
+import com.kzn.itis.db.repositories.impl.UserRepositoryImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,30 +33,20 @@ public class SpringExampleProperties {
 
     }
 
-    public void run(AbstractApplicationContext context) throws SQLException {
+    public void run(AbstractApplicationContext context) throws SQLException{
         logger.info("Welcome to Example Application");
         logger.info("url=" + config.getDbUrl());
         logger.info("username=" + config.getDbUser());
 
-        // Добавить чтобы проверяла на существование таблицы
-        jdbcTemplate.update("CREATE TABLE USERS (" + "Id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),"
-                + " Name VARCHAR(256),"
-                + " Age INTEGER, PRIMARY KEY (Id))");
-
-        jdbcTemplate.update("CREATE TABLE ORDERS (" + "Id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),"
-                + " Name VARCHAR(45),"
-                + " CustomerId INTEGER,"
-                + " SalesPersonalId INTEGER, PRIMARY KEY (Id))");
-
-        UserRepository userRepository = context.getBean("userRepository", UserRepository.class);
-        OrderRepository orderRepository = context.getBean("orderRepository", OrderRepository.class);
+        UserRepositoryImpl userRepository = context.getBean("userRepositoryImpl", UserRepositoryImpl.class);
+        OrderRepositoryImpl orderRepository = context.getBean("orderRepositoryImpl", OrderRepositoryImpl.class);
 
         usersWorkflow(userRepository);
         ordersWorkflow(orderRepository);
 
     }
 
-    public void usersWorkflow(UserRepository userRepository) throws SQLException {
+    public void usersWorkflow(UserRepositoryImpl userRepository) throws SQLException {
         System.out.println("Users count = " + String.valueOf(userRepository.getCount()));
         List<User> userList = userRepository.showAll();
         for(int i = 0; i < userList.size(); i++) {
@@ -66,11 +56,22 @@ public class SpringExampleProperties {
         logger.info("User has been added!");
         userRepository.addUser(new User("Watson", 42));
         logger.info("User has been added!");
+        userRepository.addUser(new User("Mycroft", 45));
+        logger.info("User has been added!");
+        userRepository.addUser(new User("Polly", 34));
+        logger.info("User has been added!");
+        userRepository.addUser(new User("Mrs.Hudson", 63));
+        logger.info("User has been added!");
+        userList = userRepository.showAll();
+        for(int i = 0; i < userList.size(); i++) {
+            System.out.println(userList.get(i));
+        }
         System.out.println("Users count = " + String.valueOf(userRepository.getCount()));
-        userRepository.delete(2);
+        userRepository.delete(5);
         logger.info("User has been deleted!");
         userRepository.update("Sherlock", 38, 1);
         logger.info("User has been updated!");
+        userList = userRepository.showAll();
         for(int i = 0; i < userList.size(); i++) {
             System.out.println(userList.get(i));
         }
@@ -98,7 +99,7 @@ public class SpringExampleProperties {
 //        System.out.println("Count = " + String.valueOf(userRepository.getCount()));
     }
 
-    public void ordersWorkflow(OrderRepository orderRepository) throws SQLException {
+    public void ordersWorkflow(OrderRepositoryImpl orderRepository) throws SQLException {
         System.out.println("Orders count = " + String.valueOf(orderRepository.getCount()));
         orderRepository.addOrder(new Order("Evidence", 1, 1));
         logger.info("Order has been added!");

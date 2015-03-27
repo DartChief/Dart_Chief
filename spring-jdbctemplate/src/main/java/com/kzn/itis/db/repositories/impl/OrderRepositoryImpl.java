@@ -1,105 +1,68 @@
-//package com.kzn.itis.db.repositories.impl;
-//
-//import com.kzn.itis.db.config.DatabaseConfiguration;
-//import com.kzn.itis.db.model.Order;
-//import com.kzn.itis.db.repositories.OrderRepository;
-//import org.springframework.beans.factory.annotation.Autowired;
-//
-//import java.sql.*;
-//
-//public class OrderRepositoryImpl implements OrderRepository {
-//
-//    @Autowired
-//    private DatabaseConfiguration config;
-//
+package com.kzn.itis.db.repositories.impl;
+
+import com.kzn.itis.db.model.Order;
+import com.kzn.itis.db.repositories.OrderRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import javax.sql.DataSource;
+import java.sql.SQLException;
+
+@Repository
+public class OrderRepositoryImpl implements OrderRepository {
+
+    private JdbcTemplate jdbcTemplate;
+
+    @Autowired
+    public void setDataSource(DataSource dataSource) {
+        this.jdbcTemplate = new JdbcTemplate(dataSource);
+    }
+
+    @Override
+    public void addOrder(Order order) throws SQLException {
+        jdbcTemplate.update("INSERT INTO ORDERS VALUES (DEFAULT,?,?,?)",
+                order.getName(),
+                order.getCustomerId(),
+                order.getSalesPersonalId()
+        );
+    }
+
+    @Override
+    public void update(String name, int customerId, int id) throws SQLException {
+        jdbcTemplate.update("UPDATE ORDERS SET Name = ?, CustomerId = ? WHERE Id = ?",
+                name,
+                customerId,
+                id);
+    }
+
+    @Override
+    public void delete(int id) throws SQLException {
+        jdbcTemplate.update("DELETE FROM ORDERS WHERE Id = ?",
+                id);
+    }
+
 //    @Override
-//    public void addOrder(Order order) throws SQLException {
-//
-//        Connection con = null;
-//        try {
-//            con  = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement();
-//            String sql = "INSERT INTO ORDERS VALUES (DEFAULT ,'" + order.getName()
-//                    + "'," + order.getCustomerId() + "," + order.getSalesPersonalId() + ")";
-//            statement.executeUpdate(sql);
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
+//    public List<Order> showAll() throws SQLException {
+//        List<Order> orders = this.jdbcTemplate.query(
+//                "SELECT Id, Name, CustomerId, SalesPersonalId FROM ORDERS",
+//                new RowMapper<Order>() {
+//                    @Override
+//                    public Order mapRow(ResultSet resultSet, int i) throws SQLException {
+//                        Order order = new Order();
+//                        order.setId(resultSet.getInt("Id"));
+//                        order.setName(resultSet.getString("Name"));
+//                        order.setCustomerId(resultSet.getInt("CustomerId"));
+//                        order.setSalesPersonalId(resultSet.getInt("SalesPersonalId"));
+//                        return order;
+//                    }
+//                }
+//        );
+//        return orders;
 //    }
-//
-//    @Override
-//    public void update(String name, int id) throws SQLException {
-//        Connection con = null;
-//        try {
-//            con  = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement();
-//            String sql = "UPDATE ORDERS SET Name = '" + name + "'  WHERE Id = " + id;
-//            statement.executeUpdate(sql);
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
-//    }
-//
-//    @Override
-//    public void delete(int id) throws SQLException {
-//        Connection con = null;
-//        try {
-//            con  = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement();
-//            String sql = "DELETE FROM ORDERS WHERE  Id = " + id;
-//            statement.executeUpdate(sql);
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
-//    }
-//
-//    @Override
-//    public void showAll() throws SQLException {
-//        Connection con = null;
-//        try {
-//            con = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement();
-//            String sql = "SELECT * FROM ORDERS";
-//            ResultSet res = statement.executeQuery(sql);
-//            while (res.next()) {
-//                System.out.println(res.getInt(1) + " " + res.getString(2) + " " + res.getInt(3));
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
-//    }
-//
-//    @Override
-//    public long getAmount() throws SQLException {
-//        Connection con = null;
-//        int i = 0;
-//        try {
-//            con = DriverManager.getConnection(config.getDbUrl());
-//            Statement statement = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
-//                    ResultSet.CONCUR_READ_ONLY);
-//            String sql = "SELECT * FROM ORDERS";
-//            ResultSet res = statement.executeQuery(sql);
-//            while(res.next()) {
-//                i++;
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        } finally {
-//            assert con != null;
-//            con.close();
-//        }
-//        return i;
-//    }
-//}
+
+    @Override
+    public long getCount() throws SQLException {
+        return jdbcTemplate.queryForList("SELECT * FROM ORDERS").size();
+    }
+}
