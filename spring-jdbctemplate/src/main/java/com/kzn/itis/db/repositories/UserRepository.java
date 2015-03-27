@@ -3,12 +3,13 @@ package com.kzn.itis.db.repositories;
 import com.kzn.itis.db.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
 import javax.sql.DataSource;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
-import java.util.Map;
 
 @Repository
 public class UserRepository {
@@ -41,11 +42,21 @@ public class UserRepository {
                 id);
     }
 
-    public void showAll() throws SQLException {
-        List<Map<String, Object>> all = jdbcTemplate.queryForList("SELECT * FROM USERS");
-        for (Map<String, Object> anAll : all) {
-            System.out.println(anAll);
-        }
+    public List<User> showAll() throws SQLException {
+        List<User> users = this.jdbcTemplate.query(
+                "SELECT Id, Name, Age FROM USERS",
+                new RowMapper<User>() {
+                    @Override
+                    public User mapRow(ResultSet resultSet, int i) throws SQLException {
+                        User user = new User();
+                        user.setId(resultSet.getInt("Id"));
+                        user.setName(resultSet.getString("Name"));
+                        user.setAge(resultSet.getInt("Age"));
+                        return user;
+                    }
+                }
+        );
+        return users;
     }
 
     public long getCount() throws SQLException {

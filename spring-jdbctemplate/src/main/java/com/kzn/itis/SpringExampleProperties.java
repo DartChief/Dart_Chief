@@ -15,6 +15,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.List;
 
 public class SpringExampleProperties {
 
@@ -91,7 +92,10 @@ public class SpringExampleProperties {
 
     public void usersWorkflow(UserRepository userRepository) throws SQLException {
         System.out.println("Users count = " + String.valueOf(userRepository.getCount()));
-        userRepository.showAll();
+        List<User> userList = userRepository.showAll();
+        for(int i = 0; i < userList.size(); i++) {
+            System.out.println(userList.get(i));
+        }
         userRepository.addUser(new User("Sherloc", 39));
         logger.info("User has been added!");
         userRepository.addUser(new User("Watson", 42));
@@ -101,7 +105,9 @@ public class SpringExampleProperties {
         logger.info("User has been deleted!");
         userRepository.update("Sherlock", 38, 1);
         logger.info("User has been updated!");
-        userRepository.showAll();
+        for(int i = 0; i < userList.size(); i++) {
+            System.out.println(userList.get(i));
+        }
         System.out.println("Users count = " + String.valueOf(userRepository.getCount()));
 
 //        userRepository.addUser(new User("Mycroft", 45));
@@ -128,7 +134,6 @@ public class SpringExampleProperties {
 
     public void ordersWorkflow(OrderRepository orderRepository) throws SQLException {
         System.out.println("Orders count = " + String.valueOf(orderRepository.getCount()));
-        orderRepository.showAll();
         orderRepository.addOrder(new Order("Evidence", 1, 1));
         logger.info("Order has been added!");
         orderRepository.addOrder(new Order("Guns", 2, 2));
@@ -138,7 +143,6 @@ public class SpringExampleProperties {
         logger.info("Order has been deleted!");
         orderRepository.update("Roses", 3, 2);
         logger.info("Order has been updated!");
-        orderRepository.showAll();
         System.out.println("Orders count = " + String.valueOf(orderRepository.getCount()));
     }
 
@@ -147,4 +151,5 @@ public class SpringExampleProperties {
         SpringExampleProperties main = (SpringExampleProperties)context.getBean("exampleApp");
         main.run(context);
     }
+
 }

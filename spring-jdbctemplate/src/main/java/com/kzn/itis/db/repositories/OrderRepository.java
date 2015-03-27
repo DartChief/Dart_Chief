@@ -7,8 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
-import java.util.List;
-import java.util.Map;
 
 @Repository
 public class OrderRepository {
@@ -40,12 +38,23 @@ public class OrderRepository {
                 id);
     }
 
-    public void showAll() throws SQLException {
-        List<Map<String, Object>> all = jdbcTemplate.queryForList("SELECT * FROM ORDERS");
-        for (Map<String, Object> anAll : all) {
-            System.out.println(anAll);
-        }
-    }
+//    public List<Order> showAll() throws SQLException {
+//        List<Order> orders = this.jdbcTemplate.query(
+//                "SELECT Id, Name, CustomerId, SalesPersonalId FROM ORDERS",
+//                new RowMapper<Order>() {
+//                    @Override
+//                    public Order mapRow(ResultSet resultSet, int i) throws SQLException {
+//                        Order order = new Order();
+//                        order.setId(resultSet.getInt("Id"));
+//                        order.setName(resultSet.getString("Name"));
+//                        order.setCustomerId(resultSet.getInt("CustomerId"));
+//                        order.setSalesPersonalId(resultSet.getInt("SalesPersonalId"));
+//                        return order;
+//                    }
+//                }
+//        );
+//        return orders;
+//    }
 
     public long getCount() throws SQLException {
         return jdbcTemplate.queryForList("SELECT * FROM ORDERS").size();

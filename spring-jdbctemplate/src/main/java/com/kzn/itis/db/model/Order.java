@@ -3,6 +3,10 @@ package com.kzn.itis.db.model;
 
 public class Order {
 
+    public Order() {
+
+    }
+
     public Order(String name, int customerId, int salesPersonalId) {
         this.name = name;
         this.customerId = customerId;
