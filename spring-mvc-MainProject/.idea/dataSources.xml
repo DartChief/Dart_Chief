@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3301402218">
+    <data-source source="LOCAL" name="Derby - MPDB" uuid="b73cbf70-ab8b-4e53-894e-af015dc2f3b9">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:mpdb;create=true</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
