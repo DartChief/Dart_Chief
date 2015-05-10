@@ -1,6 +1,5 @@
 package springmvc.model;
 
-
 import java.math.BigDecimal;
 
 public class Order {

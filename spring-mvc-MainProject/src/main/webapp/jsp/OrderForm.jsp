@@ -8,6 +8,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>New/Edit Contact</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
 </head>
 <body>
 <div align="center">
@@ -25,9 +30,11 @@
                 <td>Name:</td>
                 <td><form:input path="name"/></td>
             </tr>
+            <br/>
             <tr>
                 <td>Price:</td>
                 <td><form:input path="price"/></td>
+                <td><form:errors path="price" cssClass="error" /></td><br/>
             </tr>
             <tr>
                 <td colspan="2" align="center"><input type="submit" value="Save"></td>

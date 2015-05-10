@@ -2,6 +2,7 @@ package springmvc.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -10,8 +11,10 @@ import springmvc.model.Order;
 import springmvc.model.User;
 import springmvc.repositories.OrderRepository;
 import springmvc.repositories.UserRepository;
+import springmvc.validators.OrderValidator;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
@@ -25,9 +28,8 @@ public class OrderController {
     @Autowired
     private UserRepository userRepository;
 
-    public List<Order> orderList() throws SQLException {
-        return orderRepository.showAll();
-    }
+    @Autowired
+    private OrderValidator validator;
 
     @RequestMapping(value = "/createOrder", method = RequestMethod.GET)
     public ModelAndView createOrder(ModelAndView modelAndView) throws SQLException {
@@ -74,9 +76,16 @@ public class OrderController {
     }
 
 
-    @RequestMapping(value="/saveOrder", method=RequestMethod.POST)
-    public ModelAndView saveOrder(@ModelAttribute Order order) throws SQLException {
-        if(order.getId() > 0) {
+    @RequestMapping(value = "/saveOrder", method = RequestMethod.POST)
+    public ModelAndView saveOrder(ModelAndView modelAndView, @ModelAttribute("order") @Valid Order order, BindingResult result) throws SQLException {
+        validator.validate(order, result);
+        if (result.hasErrors()) {
+            modelAndView.addObject("order", order);
+            modelAndView.setViewName("OrderForm");
+            modelAndView.addObject("userList", userRepository.showAll());
+            return modelAndView;
+        }
+        if (order.getId() > 0) {
             this.orderRepository.update(order);
         } else {
             this.orderRepository.addOrder(order);

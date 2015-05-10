@@ -2,14 +2,17 @@ package springmvc.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import springmvc.model.User;
 import springmvc.repositories.UserRepository;
+import springmvc.validators.UserValidator;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 import java.sql.SQLException;
 
 @Controller
@@ -18,9 +21,11 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
+    @Autowired
+    private UserValidator validator;
+
     @RequestMapping(value="/createUser", method=RequestMethod.GET)
-    public ModelAndView createUser(ModelAndView modelAndView) throws SQLException {
-        User user = new User();
+    public ModelAndView createUser(ModelAndView modelAndView, @ModelAttribute("user") User user) throws SQLException {
         modelAndView.addObject("user", user);
         modelAndView.setViewName("UserForm");
         return modelAndView;
@@ -56,7 +61,11 @@ public class UserController {
 
 
     @RequestMapping(value="/saveUser", method=RequestMethod.POST)
-    public ModelAndView saveUser(@ModelAttribute User user) throws SQLException {
+    public ModelAndView saveUser(@ModelAttribute("user") @Valid User user, BindingResult result) throws SQLException {
+        validator.validate(user, result);
+        if(result.hasErrors()) {
+            return new ModelAndView("UserForm");
+        }
         if(user.getId() > 0){
             this.userRepository.update(user);
         } else {

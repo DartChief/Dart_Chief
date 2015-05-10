@@ -14,6 +14,8 @@ import springmvc.repositories.OrderRepository;
 import springmvc.repositories.UserRepository;
 import springmvc.repositories.impl.OrderRepositoryImpl;
 import springmvc.repositories.impl.UserRepositoryImpl;
+import springmvc.validators.OrderValidator;
+import springmvc.validators.UserValidator;
 
 import javax.sql.DataSource;
 
@@ -62,5 +64,15 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
     @Bean(initMethod = "createTableOrder")
     public OrderRepository orderRepository() {
         return new OrderRepositoryImpl();
+    }
+
+    @Bean
+    public UserValidator userValidator() {
+        return new UserValidator();
+    }
+
+    @Bean
+    public OrderValidator orderValidator() {
+        return new OrderValidator();
     }
 }
