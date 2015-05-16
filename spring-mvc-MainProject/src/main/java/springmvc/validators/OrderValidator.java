@@ -34,6 +34,8 @@ public class OrderValidator implements Validator {
             } catch (SQLException e1) {
                 e1.printStackTrace();
             }
+            // Тут можно сделать удаление всех ордеров, у которых кастомером стоит удаленный юзер
+            // просто по его айдишнику провести делит из БД, но я этого делать не стал, раз не нужно
         }
 
         try {
