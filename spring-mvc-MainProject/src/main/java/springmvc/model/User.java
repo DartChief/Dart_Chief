@@ -3,20 +3,21 @@ package springmvc.model;
 
 public class User {
 
-    public User(String name, int age,  int id) {
-        this.name = name;
+    public User(String firstName, String lastName, Integer age,  int id) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.age = age;
         this.id = id;
     }
-    public User(String name, int age){
+    public User(String firstName, String lastName, Integer age){
 
     }
-
-    private int id;
 
     public User() {
 
     }
+
+    private int id;
 
     public int getId() {
         return id;
@@ -26,32 +27,33 @@ public class User {
         this.id = id;
     }
 
-    private String name;
+    private String firstName;
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    private int age;
+    public String getLastName() {
+        return lastName;
+    }
 
-    public int getAge() {
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    private String lastName;
+
+    private Integer age;
+
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                '}';
     }
 }

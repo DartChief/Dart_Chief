@@ -26,9 +26,9 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public void createTableUser(){
+    public void createTableUser() throws SQLException {
         try {
-            jdbcTemplate.update("CREATE TABLE USERS (Id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1), Name VARCHAR(256), Age INTEGER, PRIMARY KEY (Id))");
+            jdbcTemplate.update("CREATE TABLE USERS (Id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1), FirstName VARCHAR(256), LastName VARCHAR(256), Age INTEGER, PRIMARY KEY (Id))");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -37,16 +37,18 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public void addUser(User user) throws SQLException {
-        jdbcTemplate.update("INSERT INTO USERS VALUES (DEFAULT,?,?)",
-                user.getName(),
+        jdbcTemplate.update("INSERT INTO USERS VALUES (DEFAULT,?,?,?)",
+                user.getFirstName(),
+                user.getLastName(),
                 user.getAge()
         );
     }
 
     @Override
     public void update(User user) throws SQLException {
-        jdbcTemplate.update("UPDATE USERS SET Name = ?, Age = ? WHERE Id = ?",
-                user.getName(),
+        jdbcTemplate.update("UPDATE USERS SET FirstName = ?, LastName = ?, Age = ? WHERE Id = ?",
+                user.getFirstName(),
+                user.getLastName(),
                 user.getAge(),
                 user.getId());
     }
@@ -60,12 +62,13 @@ public class UserRepositoryImpl implements UserRepository {
     @Override
     public List<User> showAll() throws SQLException {
         List<User> users = this.jdbcTemplate.query(
-                "SELECT Id, Name, Age FROM USERS",
+                "SELECT Id, FirstName, LastName, Age FROM USERS",
                 new RowMapper<User>() {
                     @Override
                     public User mapRow(ResultSet rs, int i) throws SQLException {
                         User user = new User(
-                                rs.getString("name"),
+                                rs.getString("firstName"),
+                                rs.getString("lastName"),
                                 rs.getInt("age"),
                                 rs.getInt("id")
                         );
@@ -86,7 +89,8 @@ public class UserRepositoryImpl implements UserRepository {
                         if(resultSet.next()) {
                             User user = new User();
                             user.setId(resultSet.getInt("id"));
-                            user.setName(resultSet.getString("name"));
+                            user.setFirstName(resultSet.getString("firstName"));
+                            user.setLastName(resultSet.getString("lastName"));
                             user.setAge(resultSet.getInt("age"));
                             return user;
                         }

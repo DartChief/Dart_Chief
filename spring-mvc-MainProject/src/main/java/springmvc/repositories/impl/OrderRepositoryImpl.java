@@ -26,7 +26,7 @@ public class OrderRepositoryImpl implements OrderRepository {
     }
 
     @Override
-    public void createTableOrder(){
+    public void createTableOrder() throws SQLException {
         try {
             jdbcTemplate.update("CREATE TABLE ORDERS (Id INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1), Name VARCHAR(45), CustomerId INTEGER, Price DECIMAL , PRIMARY KEY (Id))");
         } catch (Exception e) {

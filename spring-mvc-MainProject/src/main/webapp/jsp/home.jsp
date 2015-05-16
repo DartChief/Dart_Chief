@@ -1,4 +1,3 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -18,14 +17,16 @@
 
     <table border="1">
         <th>Id</th>
-        <th>Name</th>
+        <th>First Name</th>
+        <th>Last Name</th>
         <th>Age</th>
         <th>Action</th>
 
         <c:forEach var="user" items="${users}" varStatus="status">
             <tr>
                 <td>${user.id}</td>
-                <td>${user.name}</td>
+                <td>${user.firstName}</td>
+                <td>${user.lastName}</td>
                 <td>${user.age}</td>
                 <td>
                     <a href="<c:url value="/updateUser?id=${user.id}"/>">Update</a>

@@ -46,7 +46,7 @@ public class OrderController {
         modelAndView.addObject("orders", orders);
         HashMap<Integer, String> map = new HashMap<Integer, String>();
         for (User user : userRepository.showAll()) {
-            map.put(user.getId(), user.getName());
+            map.put(user.getId(), user.getFirstName());
         }
         modelAndView.addObject("map", map);
         modelAndView.setViewName("listOrders");

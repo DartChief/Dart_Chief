@@ -1,8 +1,11 @@
 package springmvc.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.core.env.Environment;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.web.servlet.ViewResolver;
@@ -18,15 +21,21 @@ import springmvc.validators.OrderValidator;
 import springmvc.validators.UserValidator;
 
 import javax.sql.DataSource;
+import java.sql.SQLException;
 
 @Configuration
 @ComponentScan(basePackages="springmvc")
+@PropertySource("classpath:derby-env.properties")
 @EnableWebMvc
 public class MvcConfiguration extends WebMvcConfigurerAdapter{
+
+    @Autowired
+    private Environment env;
 
     @Bean
     public ViewResolver getViewResolver(){
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+        resolver.setContentType("text/html;charset=UTF-8");
         resolver.setPrefix("/jsp/");
         resolver.setSuffix(".jsp");
         return resolver;
@@ -38,21 +47,33 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
     }
 
     @Bean
-    public DataSource getDataSource() {
+    public DataSource getDataSource() throws SQLException {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("org.apache.derby.jdbc.EmbeddedDriver");
-        dataSource.setUrl("jdbc:derby:./mpdb;create=true");
-        dataSource.setUsername("Users");
-        dataSource.setPassword("password");
+//        try {
+//            try {
+//                Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance();
+//            } catch (InstantiationException e) {
+//                e.printStackTrace();
+//            } catch (IllegalAccessException e) {
+//                e.printStackTrace();
+//            }
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        }
+        dataSource.setDriverClassName(env.getProperty("db.driverClassName"));
+        dataSource.setUrl(env.getProperty("db.url"));
+        dataSource.setUsername(env.getProperty("db.username"));
+        dataSource.setPassword(env.getProperty("db.password"));
 
         return dataSource;
     }
 
     @Bean
-    public JdbcTemplate jdbcTemplate() {
+    public JdbcTemplate jdbcTemplate() throws SQLException {
         final JdbcTemplate jdbcTemplate = new JdbcTemplate();
         jdbcTemplate.setDataSource(getDataSource());
         jdbcTemplate.afterPropertiesSet();
+
         return jdbcTemplate;
     }
 
