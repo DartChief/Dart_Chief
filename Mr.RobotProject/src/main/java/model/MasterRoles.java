@@ -7,6 +7,7 @@ import javax.persistence.*;
 public class MasterRoles {
     private int id;
     private String name;
+    private Masters masters;
 
     @Id
     @Column(name = "id", nullable = false, insertable = true, updatable = true)
@@ -46,5 +47,15 @@ public class MasterRoles {
         int result = id;
         result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "name", referencedColumnName = "number")
+    public Masters getMasters() {
+        return masters;
+    }
+
+    public void setMasters(Masters masters) {
+        this.masters = masters;
     }
 }

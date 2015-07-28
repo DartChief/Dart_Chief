@@ -7,6 +7,7 @@ import javax.persistence.*;
 public class HackerRoles {
     private int id;
     private String name;
+    private Hackers hackers;
 
     @Id
     @Column(name = "id", nullable = false, insertable = true, updatable = true)
@@ -46,5 +47,15 @@ public class HackerRoles {
         int result = id;
         result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "name", referencedColumnName = "login")
+    public Hackers getHackers() {
+        return hackers;
+    }
+
+    public void setHackers(Hackers hackers) {
+        this.hackers = hackers;
     }
 }

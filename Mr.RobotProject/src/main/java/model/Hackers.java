@@ -1,7 +1,6 @@
 package model;
 
 import javax.persistence.*;
-import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -9,15 +8,12 @@ public class Hackers {
     private int id;
     private String firstName;
     private String lastName;
-    private String login;
     private String email;
     private Integer rank;
     private String ip;
     private String password;
-
-    @OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
-    @JoinColumn(name="id")
-    private Set<HackerRoles> hackerRoles = new HashSet<>();
+    private String login;
+    private Set<HackerRoles> hackerRoles;
 
     @Id
     @Column(name = "id", nullable = false, insertable = true, updatable = true)
@@ -47,16 +43,6 @@ public class Hackers {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
-
-    @Basic
-    @Column(name = "login", nullable = true, insertable = true, updatable = true, length = 64, unique = true)
-    public String getLogin() {
-        return login;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
     }
 
     @Basic
@@ -99,12 +85,14 @@ public class Hackers {
         this.password = password;
     }
 
-    public Set<HackerRoles> getHackerRoles() {
-        return hackerRoles;
+    @Basic
+    @Column(name = "login", nullable = true, insertable = true, updatable = true, length = 64)
+    public String getLogin() {
+        return login;
     }
 
-    public void setHackerRoles(Set<HackerRoles> hackerRoles) {
-        this.hackerRoles = hackerRoles;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     @Override
@@ -121,6 +109,7 @@ public class Hackers {
         if (rank != null ? !rank.equals(hackers.rank) : hackers.rank != null) return false;
         if (ip != null ? !ip.equals(hackers.ip) : hackers.ip != null) return false;
         if (password != null ? !password.equals(hackers.password) : hackers.password != null) return false;
+        if (login != null ? !login.equals(hackers.login) : hackers.login != null) return false;
 
         return true;
     }
@@ -134,6 +123,16 @@ public class Hackers {
         result = 31 * result + (rank != null ? rank.hashCode() : 0);
         result = 31 * result + (ip != null ? ip.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
+        result = 31 * result + (login != null ? login.hashCode() : 0);
         return result;
+    }
+
+    @OneToMany(mappedBy = "hackers")
+    public Set<HackerRoles> getHackerRoles() {
+        return hackerRoles;
+    }
+
+    public void setHackerRoles(Set<HackerRoles> hackerRoles) {
+        this.hackerRoles = hackerRoles;
     }
 }

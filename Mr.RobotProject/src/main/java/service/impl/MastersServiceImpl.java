@@ -1,5 +1,6 @@
 package service.impl;
 
+import model.Masters;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import repository.MastersRepository;
@@ -37,5 +38,10 @@ public class MastersServiceImpl implements MastersService {
     @Override
     public void delete(int id) throws ClassNotFoundException {
         mastersRepository.delete(id);
+    }
+
+    @Override
+    public Masters findByNumber(String number) {
+        return mastersRepository.findByNumber(number);
     }
 }

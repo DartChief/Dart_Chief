@@ -12,4 +12,5 @@ public interface MastersHackersStatisticsRepository extends JpaRepository<Master
 
     @Query("select COUNT(*) from masters_hackers_statistics m where m.id = :id")
     long getCount(@Param("id") Integer integer);
+
 }

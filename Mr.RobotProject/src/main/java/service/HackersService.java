@@ -1,5 +1,7 @@
 package service;
 
+import model.Hackers;
+
 import java.util.List;
 
 public interface HackersService {
@@ -9,5 +11,6 @@ public interface HackersService {
     Hackers showById(int id);
     Hackers update(Hackers hackers) throws ClassNotFoundException;
     void delete(int id) throws ClassNotFoundException;
+    Hackers findByLogin(String login);
 
 }
