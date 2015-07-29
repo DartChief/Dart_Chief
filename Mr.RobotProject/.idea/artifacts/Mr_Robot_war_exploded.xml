@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="Sydny'sCatalog:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/Sydny_sCatalog_war_exploded</output-path>
+  <artifact type="exploded-war" name="Mr.Robot:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Mr_Robot_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="Mr.RobotProject/web/Web" />
       <element id="directory" name="WEB-INF">

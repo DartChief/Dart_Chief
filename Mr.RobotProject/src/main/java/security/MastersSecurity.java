@@ -25,7 +25,7 @@ public class MastersSecurity extends Masters implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        Collection<GrantedAuthority> authorities = new ArrayList<>();
+        Collection<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
         Set<MasterRoles> masterRoles = this.getMasterRoles();
         if (masterRoles != null) {
             for (MasterRoles masterRoles1 : masterRoles) {

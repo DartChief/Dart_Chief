@@ -30,7 +30,7 @@ public class HackersSecurity extends Hackers implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        Collection<GrantedAuthority> authorities = new ArrayList<>();
+        Collection<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
         Set<HackerRoles> hackerRoles = this.getHackerRoles();
         if (hackerRoles != null) {
             for (HackerRoles hackerRoles1 : hackerRoles) {
