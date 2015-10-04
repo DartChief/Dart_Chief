@@ -3,10 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pom.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/config/WebMvcConfig.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/controller/UserController.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/validator/OrderValidator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/validator/UserValidator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/springapp/validator/OrderValidator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/springapp/validator/UserValidator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/springapp/web/config/WebMvcConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/springapp/web/controller/LoginController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/springapp/web/controller/UserController.java" charset="UTF-8" />
   </component>
 </project>
