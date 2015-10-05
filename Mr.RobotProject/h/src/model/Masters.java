@@ -1,11 +1,10 @@
-package springapp.model;
+package model;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.Set;
 
 @Entity
-public class Masters implements Serializable {
+public class Masters {
     private int id;
     private String email;
     private String password;
@@ -89,7 +88,7 @@ public class Masters implements Serializable {
         return result;
     }
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "mastersByUsername")
+    @OneToMany(mappedBy = "mastersByUsername")
     public Set<MasterRoles> getMasterRolesByNumber() {
         return masterRolesByNumber;
     }

@@ -5,6 +5,7 @@ import java.io.Serializable;
 import java.util.Set;
 
 @Entity
+@Table(name = "hackers", schema = "public", catalog = "Mr.Robot")
 public class Hackers implements Serializable {
     private int id;
     private String firstName;
@@ -14,7 +15,24 @@ public class Hackers implements Serializable {
     private String ip;
     private String password;
     private String login;
+    private boolean enabled;
     private Set<HackerRoles> hackerRoles;
+
+    public Hackers(String login, String password, boolean enabled) {
+        this.login = login;
+        this.password = password;
+        this.enabled = enabled;
+    }
+
+    public Hackers(String login, String password, boolean enabled, Set<HackerRoles> hackerRoles) {
+        this.login = login;
+        this.password = password;
+        this.enabled = enabled;
+        this.hackerRoles = hackerRoles;
+    }
+
+    public Hackers() {
+    }
 
     @Id
     @Column(name = "id", nullable = false, insertable = true, updatable = true)
@@ -96,6 +114,16 @@ public class Hackers implements Serializable {
         this.login = login;
     }
 
+
+    @Column(name = "enabled", nullable = false)
+    public boolean isEnabled() {
+        return this.enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -128,7 +156,7 @@ public class Hackers implements Serializable {
         return result;
     }
 
-    @OneToMany(mappedBy = "hackers")
+    @OneToMany(fetch = FetchType.EAGER,mappedBy = "hackers")
     public Set<HackerRoles> getHackerRoles() {
         return hackerRoles;
     }

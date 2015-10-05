@@ -9,6 +9,7 @@ import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
+import org.springframework.web.servlet.view.JstlView;
 
 import java.util.Properties;
 
@@ -17,17 +18,18 @@ import java.util.Properties;
 @ComponentScan(basePackages = {"springapp.web"})
 public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
-    @Override
-    public void addViewControllers(ViewControllerRegistry registry) {
-        super.addViewControllers(registry);
-        registry.addViewController("login/form").setViewName("login");
-        registry.addViewController("welcome").setViewName("welcome");
-        registry.addViewController("admin").setViewName("admin");
-    }
+//    @Override
+//    public void addViewControllers(ViewControllerRegistry registry) {
+//        super.addViewControllers(registry);
+//        registry.addViewController("login/form").setViewName("login");
+//        registry.addViewController("welcome").setViewName("welcome");
+//        registry.addViewController("admin").setViewName("admin");
+//    }
 
     @Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+        resolver.setViewClass(JstlView.class);
         resolver.setContentType("text/html;charset=UTF-8");
         resolver.setPrefix("/jsp/");
         resolver.setSuffix(".jsp");

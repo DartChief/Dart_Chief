@@ -1555,6 +1555,7 @@
       <column name="ip" sqlType="char" precision="1" scale="0" nullable="true" jdbcType="1"/>
       <column name="password" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
       <column name="login" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
+      <column name="enabled" sqlType="bool" precision="1" scale="0" nullable="true" jdbcType="-7"/>
       <primary-key name="hackers_pkey" columns="id"/>
       <exported-key name="hacker_roles_username_fkey" table="hacker_roles" schema="public" catalog="Mr.Robot" columns="username"/>
       <exported-key name="hackers_authentication_hacker_id_fkey" table="hackers_authentication" schema="public" catalog="Mr.Robot" columns="hacker_id"/>
@@ -1562,6 +1563,7 @@
       <exported-key name="hackers_status_hacker_id_fkey" table="hackers_status" schema="public" catalog="Mr.Robot" columns="hacker_id"/>
       <exported-key name="masters_hackers_statistics_hacker_id_fkey" table="masters_hackers_statistics" schema="public" catalog="Mr.Robot" columns="hacker_id"/>
       <index name="hackers_login_key" unique="true" columns="login"/>
+      <index name="uk_sfaqigh4wxh24s81hcofofxil" unique="true" columns="login"/>
     </table>
     <table name="hackers_authentication" schema="public" catalog="Mr.Robot" type="TABLE">
       <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnaGFja2Vyc19hdXRoZW50aWNhdGlvbl9pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
@@ -1660,7 +1662,8 @@
       <column name="name" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
       <column name="username" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
       <primary-key name="master_roles_pkey" columns="id"/>
-      <foreign-key name="master_roles_username_fkey" columns="username" ref-table="masters" ref-schema="public" ref-catalog="" ref-columns="number" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="masters_number_fkey" table="masters" schema="public" catalog="Mr.Robot" columns="number"/>
+      <index name="master_roles_username_key" unique="true" columns="username"/>
     </table>
     <table name="master_roles_id_seq" schema="public" catalog="Mr.Robot" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
@@ -1679,11 +1682,13 @@
       <column name="email" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
       <column name="password" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
       <column name="number" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
+      <column name="enabled" sqlType="bool" precision="1" scale="0" nullable="true" jdbcType="-7"/>
       <primary-key name="masters_pkey" columns="id"/>
-      <exported-key name="master_roles_username_fkey" table="master_roles" schema="public" catalog="Mr.Robot" columns="username"/>
+      <foreign-key name="masters_number_fkey" columns="number" ref-table="master_roles" ref-schema="public" ref-catalog="" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
       <exported-key name="masters_authentification_master_id_fkey" table="masters_authentication" schema="public" catalog="Mr.Robot" columns="master_id"/>
       <exported-key name="masters_hackers_statistics_master_id_fkey" table="masters_hackers_statistics" schema="public" catalog="Mr.Robot" columns="master_id"/>
       <index name="masters_number_key" unique="true" columns="number"/>
+      <index name="uk_ecmoupwh8umudivre16aqdna" unique="true" columns="number"/>
     </table>
     <table name="masters_authentication" schema="public" catalog="Mr.Robot" type="TABLE">
       <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnbWFzdGVyc19hdXRoZW50aWNhdGlvbl9pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>

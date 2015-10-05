@@ -1,8 +1,8 @@
 package springapp.service.impl;
 
-import springapp.model.Masters;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import springapp.model.Masters;
 import springapp.repository.MastersRepository;
 import springapp.service.MastersService;
 

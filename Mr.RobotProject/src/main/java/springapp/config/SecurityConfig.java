@@ -25,10 +25,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public void registerGlobalAuthentication(AuthenticationManagerBuilder auth) throws Exception {
         auth
                 .userDetailsService(hackersDetailsService)
-                .passwordEncoder(getShaPasswordEncoder())
+                .passwordEncoder(getPasswordEncoder())
                 .and()
                 .userDetailsService(mastersDetailsService)
-                .passwordEncoder(getShaPasswordEncoder());
+                .passwordEncoder(getPasswordEncoder());
     }
 
     @Override
@@ -39,14 +39,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/admin", "/admin/**").hasRole("ADMIN")
                 .anyRequest().authenticated()
                 .and().exceptionHandling().accessDeniedPage("/403")
-                .and().csrf();
+                .and().csrf().disable();
 
         http.formLogin()
                 .loginPage("/login")
-                .loginProcessingUrl("/j_spring_security_check")
                 .failureUrl("/login?error")
-                .usernameParameter("username")
-                .passwordParameter("password")
+
+                .usernameParameter("j_username")
+                .passwordParameter("j_password")
                 .permitAll();
 
         http.logout()
@@ -58,7 +58,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Bean
-    public ShaPasswordEncoder getShaPasswordEncoder(){
+    public ShaPasswordEncoder getPasswordEncoder(){
         return new ShaPasswordEncoder();
     }
 

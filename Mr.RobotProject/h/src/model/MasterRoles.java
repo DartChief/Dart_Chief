@@ -1,13 +1,14 @@
-package springapp.model;
+package model;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "hacker_roles", schema = "public", catalog = "Mr.Robot")
-public class HackerRoles {
+@Table(name = "master_roles", schema = "public", catalog = "Mr.Robot")
+public class MasterRoles {
     private int id;
     private String name;
-    private Hackers hackers;
+    private String username;
+    private Masters mastersByUsername;
 
     @Id
     @Column(name = "id", nullable = false, insertable = true, updatable = true)
@@ -29,15 +30,26 @@ public class HackerRoles {
         this.name = name;
     }
 
+    @Basic
+    @Column(name = "username", nullable = true, insertable = true, updatable = true, length = 64)
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        HackerRoles that = (HackerRoles) o;
+        MasterRoles that = (MasterRoles) o;
 
         if (id != that.id) return false;
         if (name != null ? !name.equals(that.name) : that.name != null) return false;
+        if (username != null ? !username.equals(that.username) : that.username != null) return false;
 
         return true;
     }
@@ -46,16 +58,17 @@ public class HackerRoles {
     public int hashCode() {
         int result = id;
         result = 31 * result + (name != null ? name.hashCode() : 0);
+        result = 31 * result + (username != null ? username.hashCode() : 0);
         return result;
     }
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "username", referencedColumnName = "login")
-    public Hackers getHackers() {
-        return hackers;
+    @ManyToOne
+    @JoinColumn(name = "username", referencedColumnName = "number")
+    public Masters getMastersByUsername() {
+        return mastersByUsername;
     }
 
-    public void setHackers(Hackers hackers) {
-        this.hackers = hackers;
+    public void setMastersByUsername(Masters mastersByUsername) {
+        this.mastersByUsername = mastersByUsername;
     }
 }

@@ -8,10 +8,11 @@ import java.io.Serializable;
 public class MasterRoles implements Serializable {
     private int id;
     private String name;
-    private Masters masters;
+    private String username;
+    private Masters mastersByUsername;
 
     @Id
-    @Column(name = "id", nullable = false, insertable = true, updatable = true)
+    @Column(name = "id", nullable = false, insertable = false, updatable = false)
     public int getId() {
         return id;
     }
@@ -21,13 +22,23 @@ public class MasterRoles implements Serializable {
     }
 
     @Basic
-    @Column(name = "name", nullable = true, insertable = true, updatable = true, length = 64)
+    @Column(name = "name", nullable = true, insertable = false, updatable = false, length = 64)
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Basic
+    @Column(name = "username", nullable = true, insertable = false, updatable = false, length = 64)
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     @Override
@@ -39,6 +50,7 @@ public class MasterRoles implements Serializable {
 
         if (id != that.id) return false;
         if (name != null ? !name.equals(that.name) : that.name != null) return false;
+        if (username != null ? !username.equals(that.username) : that.username != null) return false;
 
         return true;
     }
@@ -47,16 +59,17 @@ public class MasterRoles implements Serializable {
     public int hashCode() {
         int result = id;
         result = 31 * result + (name != null ? name.hashCode() : 0);
+        result = 31 * result + (username != null ? username.hashCode() : 0);
         return result;
     }
 
     @ManyToOne
     @JoinColumn(name = "username", referencedColumnName = "number")
-    public Masters getMasters() {
-        return masters;
+    public Masters getMastersByUsername() {
+        return mastersByUsername;
     }
 
-    public void setMasters(Masters masters) {
-        this.masters = masters;
+    public void setMastersByUsername(Masters mastersByUsername) {
+        this.mastersByUsername = mastersByUsername;
     }
 }
