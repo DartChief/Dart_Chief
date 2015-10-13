@@ -1,17 +1,17 @@
 package springapp.model;
 
 import javax.persistence.*;
-import java.io.Serializable;
-import java.util.Set;
+import java.util.Collection;
 
 @Entity
-public class Masters implements Serializable {
+public class Masters {
     private int id;
     private String email;
     private String password;
     private String number;
     private Boolean enabled;
-    private Set<MasterRoles> masterRolesByNumber;
+    private String role;
+    private Collection<MasterRoles> masterRolesByUsername;
 
     @Id
     @Column(name = "id", nullable = false, insertable = true, updatable = true)
@@ -63,6 +63,16 @@ public class Masters implements Serializable {
         this.enabled = enabled;
     }
 
+    @Basic
+    @Column(name = "role", nullable = false, insertable = true, updatable = true, length = 2147483647)
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -75,6 +85,7 @@ public class Masters implements Serializable {
         if (password != null ? !password.equals(masters.password) : masters.password != null) return false;
         if (number != null ? !number.equals(masters.number) : masters.number != null) return false;
         if (enabled != null ? !enabled.equals(masters.enabled) : masters.enabled != null) return false;
+        if (role != null ? !role.equals(masters.role) : masters.role != null) return false;
 
         return true;
     }
@@ -86,15 +97,16 @@ public class Masters implements Serializable {
         result = 31 * result + (password != null ? password.hashCode() : 0);
         result = 31 * result + (number != null ? number.hashCode() : 0);
         result = 31 * result + (enabled != null ? enabled.hashCode() : 0);
+        result = 31 * result + (role != null ? role.hashCode() : 0);
         return result;
     }
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "mastersByUsername")
-    public Set<MasterRoles> getMasterRolesByNumber() {
-        return masterRolesByNumber;
+    @OneToMany(mappedBy = "mastersByUsername", fetch = FetchType.EAGER)
+    public Collection<MasterRoles> getMasterRolesByUsername() {
+        return masterRolesByUsername;
     }
 
-    public void setMasterRolesByNumber(Set<MasterRoles> masterRolesByNumber) {
-        this.masterRolesByNumber = masterRolesByNumber;
+    public void setMasterRolesByUsername(Collection<MasterRoles> masterRolesByUsername) {
+        this.masterRolesByUsername = masterRolesByUsername;
     }
 }

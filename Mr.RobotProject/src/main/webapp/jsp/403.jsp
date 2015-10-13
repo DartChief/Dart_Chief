@@ -5,7 +5,10 @@
 </head>
 <body>
 <center>
-    <br /> <br /> <br />
+
+
+
+
     <h1>
         Access Denied for User : <span style="color: red;">${username}</span>
     </h1>

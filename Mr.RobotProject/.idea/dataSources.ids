@@ -1556,6 +1556,7 @@
       <column name="password" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
       <column name="login" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
       <column name="enabled" sqlType="bool" precision="1" scale="0" nullable="true" jdbcType="-7"/>
+      <column name="role" sqlType="role_enum" precision="2147483647" scale="0" nullable="false" jdbcType="12" def="J0hBQ0tFUic="/>
       <primary-key name="hackers_pkey" columns="id"/>
       <exported-key name="hacker_roles_username_fkey" table="hacker_roles" schema="public" catalog="Mr.Robot" columns="username"/>
       <exported-key name="hackers_authentication_hacker_id_fkey" table="hackers_authentication" schema="public" catalog="Mr.Robot" columns="hacker_id"/>
@@ -1683,6 +1684,7 @@
       <column name="password" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
       <column name="number" sqlType="bpchar" precision="64" scale="0" nullable="true" jdbcType="1"/>
       <column name="enabled" sqlType="bool" precision="1" scale="0" nullable="true" jdbcType="-7"/>
+      <column name="role" sqlType="role_enum" precision="2147483647" scale="0" nullable="false" jdbcType="12" def="J01BU1RFUic="/>
       <primary-key name="masters_pkey" columns="id"/>
       <foreign-key name="masters_number_fkey" columns="number" ref-table="master_roles" ref-schema="public" ref-catalog="" ref-columns="username" update-rule="3" delete-rule="3" deferrability="2"/>
       <exported-key name="masters_authentification_master_id_fkey" table="masters_authentication" schema="public" catalog="Mr.Robot" columns="master_id"/>

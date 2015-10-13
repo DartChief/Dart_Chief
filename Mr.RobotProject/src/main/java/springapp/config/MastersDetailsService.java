@@ -10,18 +10,15 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import springapp.model.MasterRoles;
 import springapp.model.Masters;
-import springapp.service.MastersService;
+import springapp.repository.MastersRepository;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 @Service
 public class MastersDetailsService implements UserDetailsService {
 
     @Autowired
-    private MastersService mastersService;
+    private MastersRepository mastersRepository;
 
 //    @Override
 //    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -35,8 +32,8 @@ public class MastersDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(final String login) throws UsernameNotFoundException {
 
-        Masters masters = mastersService.findByNumber(login);
-        List<GrantedAuthority> authorities = buildUserAuthority(masters.getMasterRolesByNumber());
+        Masters masters = mastersRepository.findByNumber(login);
+        List<GrantedAuthority> authorities = buildUserAuthority(masters.getMasterRolesByUsername());
 
         return buildUserForAuthentication(masters, authorities);
 
@@ -46,7 +43,7 @@ public class MastersDetailsService implements UserDetailsService {
         return new User(masters.getNumber(), masters.getPassword(), masters.getEnabled(), true, true, true, authorities);
     }
 
-    private List<GrantedAuthority> buildUserAuthority(Set<MasterRoles> masterRoles) {
+    private List<GrantedAuthority> buildUserAuthority(Collection<MasterRoles> masterRoles) {
         Set<GrantedAuthority> setAuths = new HashSet<GrantedAuthority>();
 
         for (MasterRoles masterRole : masterRoles) {

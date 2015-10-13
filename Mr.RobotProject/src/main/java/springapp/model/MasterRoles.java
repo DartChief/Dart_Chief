@@ -1,18 +1,17 @@
 package springapp.model;
 
 import javax.persistence.*;
-import java.io.Serializable;
 
 @Entity
 @Table(name = "master_roles", schema = "public", catalog = "Mr.Robot")
-public class MasterRoles implements Serializable {
+public class MasterRoles {
     private int id;
     private String name;
     private String username;
     private Masters mastersByUsername;
 
     @Id
-    @Column(name = "id", nullable = false, insertable = false, updatable = false)
+    @Column(name = "id", nullable = false, insertable = true, updatable = true)
     public int getId() {
         return id;
     }
@@ -22,7 +21,7 @@ public class MasterRoles implements Serializable {
     }
 
     @Basic
-    @Column(name = "name", nullable = true, insertable = false, updatable = false, length = 64)
+    @Column(name = "name", nullable = true, insertable = true, updatable = true, length = 64)
     public String getName() {
         return name;
     }
@@ -32,7 +31,7 @@ public class MasterRoles implements Serializable {
     }
 
     @Basic
-    @Column(name = "username", nullable = true, insertable = false, updatable = false, length = 64)
+    @Column(name = "username", nullable = true, insertable = true, updatable = true, length = 64)
     public String getUsername() {
         return username;
     }
@@ -63,8 +62,7 @@ public class MasterRoles implements Serializable {
         return result;
     }
 
-    @ManyToOne
-    @JoinColumn(name = "username", referencedColumnName = "number")
+    @ManyToOne(fetch = FetchType.EAGER)
     public Masters getMastersByUsername() {
         return mastersByUsername;
     }

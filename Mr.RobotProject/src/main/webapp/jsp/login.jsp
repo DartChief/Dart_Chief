@@ -7,7 +7,7 @@
 <center>
     <h2>Login Here</h2>
     <div style="text-align: center; padding: 30px;border: 1px solid green;width: 250px;">
-        <form method="post" action="<c:url value='/login' />">
+        <form method="post" action="<c:url value='/j_spring_security_check' />">
 
             <table>
                 <tr>
