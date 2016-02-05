@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Derby - db" uuid="67b9876f-a42a-42f6-aa1c-24dacdce6b32">
+      <secret-storage>memory</secret-storage>
+      <schema-pattern>*</schema-pattern>
+      <default-schemas>*.APP *.NULLID *.SQLJ *.SYS *.SYSCAT *.SYSCS_DIAG *.SYSCS_UTIL *.SYSFUN *.SYSIBM *.SYSPROC *.SYSSTAT</default-schemas>
+    </data-source>
+  </component>
+</project>
